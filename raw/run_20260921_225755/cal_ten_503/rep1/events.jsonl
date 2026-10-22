@@ -1,0 +1,13 @@
+{"t_mono": 89964.986467, "t_wall": 1790006278.640605, "op_id": "cal_ten_503-r1-0004", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 89964.986472, "t_wall": 1790006278.640609, "op_id": "cal_ten_503-r1-0004", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 89964.986474, "t_wall": 1790006278.640611, "op_id": "cal_ten_503-r1-0004", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 89964.98984, "t_wall": 1790006278.643977, "op_id": "cal_ten_503-r1-0004", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 89965.010876, "t_wall": 1790006278.665014, "op_id": "cal_ten_503-r1-0004", "layer": "tenacity", "kind": "invoke", "data": {"n": 2}}
+{"t_mono": 89965.010884, "t_wall": 1790006278.665021, "op_id": "cal_ten_503-r1-0004", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 89965.010886, "t_wall": 1790006278.665023, "op_id": "cal_ten_503-r1-0004", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 89965.012791, "t_wall": 1790006278.666928, "op_id": "cal_ten_503-r1-0004", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 89965.033444, "t_wall": 1790006278.687582, "op_id": "cal_ten_503-r1-0004", "layer": "tenacity", "kind": "invoke", "data": {"n": 3}}
+{"t_mono": 89965.033457, "t_wall": 1790006278.687594, "op_id": "cal_ten_503-r1-0004", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 89965.033461, "t_wall": 1790006278.687598, "op_id": "cal_ten_503-r1-0004", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 89965.0368, "t_wall": 1790006278.690938, "op_id": "cal_ten_503-r1-0004", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 89965.036978, "t_wall": 1790006278.691116, "op_id": "cal_ten_503-r1-0004", "layer": "op", "kind": "result", "data": {"outcome": "exception", "status": 503, "attempts": 3, "wall_s": 0.050516}}

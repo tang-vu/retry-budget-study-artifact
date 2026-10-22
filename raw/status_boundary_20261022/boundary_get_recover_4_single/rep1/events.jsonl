@@ -1,0 +1,13 @@
+{"t_mono": 185176.366579, "t_wall": 1792645416.560297, "op_id": "boundary_get_recover_4_single-r1-0022", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185176.366583, "t_wall": 1792645416.560301, "op_id": "boundary_get_recover_4_single-r1-0022", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185176.367222, "t_wall": 1792645416.56094, "op_id": "boundary_get_recover_4_single-r1-0022", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185176.388669, "t_wall": 1792645416.582387, "op_id": "boundary_get_recover_4_single-r1-0022", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185176.388813, "t_wall": 1792645416.58253, "op_id": "boundary_get_recover_4_single-r1-0022", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185176.389715, "t_wall": 1792645416.583433, "op_id": "boundary_get_recover_4_single-r1-0022", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185176.389822, "t_wall": 1792645416.583539, "op_id": "boundary_get_recover_4_single-r1-0022", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185176.390921, "t_wall": 1792645416.58464, "op_id": "boundary_get_recover_4_single-r1-0022", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185176.391032, "t_wall": 1792645416.58475, "op_id": "boundary_get_recover_4_single-r1-0022", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185176.391982, "t_wall": 1792645416.5857, "op_id": "boundary_get_recover_4_single-r1-0022", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": 503}}
+{"t_mono": 185176.392425, "t_wall": 1792645416.586142, "op_id": "boundary_get_recover_4_single-r1-0022", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185176.39243, "t_wall": 1792645416.586147, "op_id": "boundary_get_recover_4_single-r1-0022", "layer": "status_check", "kind": "response_checked", "data": {"status": 503}}
+{"t_mono": 185176.39263, "t_wall": 1792645416.586348, "op_id": "boundary_get_recover_4_single-r1-0022", "layer": "op", "kind": "result", "data": {"outcome": "exception", "status": null, "attempts": 4, "wall_s": 0.026028}}

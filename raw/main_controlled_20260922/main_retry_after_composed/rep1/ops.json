@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "main_retry_after_composed-r1-0016",
+      "outcome": "success",
+      "status": 200,
+      "transport_attempts": 2,
+      "wrapper_invocations": 2,
+      "wall_s": 1.0141422000015154,
+      "error": null
+    },
+    "op_id": "main_retry_after_composed-r1-0016"
+  }
+]

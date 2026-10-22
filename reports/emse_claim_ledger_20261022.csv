@@ -1,0 +1,9 @@
+claim,evidence,scope,status
+"unchecked: 38 entries, 4/16 successes",raw/status_boundary_20261022; raw/status_boundary_flat_20261022,authored matrix; flat post-inspection; one host,machine_reconciled_not_human_verified
+"checked: 70 entries, 10/16 successes",raw/status_boundary_20261022; raw/status_boundary_flat_20261022,authored matrix; flat post-inspection; one host,machine_reconciled_not_human_verified
+"single: 36 entries, 4/16 successes",raw/status_boundary_20261022; raw/status_boundary_flat_20261022,authored matrix; flat post-inspection; one host,machine_reconciled_not_human_verified
+"shared: 52 entries, 8/16 successes",raw/status_boundary_20261022; raw/status_boundary_flat_20261022,authored matrix; flat post-inspection; one host,machine_reconciled_not_human_verified
+"flat: 56 entries, 8/16 successes",raw/status_boundary_20261022; raw/status_boundary_flat_20261022,authored matrix; flat post-inspection; one host,machine_reconciled_not_human_verified
+1536 original offline cases within bounds,derived/library-state-recheck-20261022,persistent authored domain; no timing/effects,machine_reconciled_not_human_verified
+576 boundary offline cases within bounds,derived/status-boundary-offline-20261022,persistent authored HTTP statuses; no field sample,machine_reconciled_not_human_verified
+256 nested-controller diagnostic cases agree,derived/nested-signal-review-20261022,post-inspection authored regression domain; no live requests,machine_reconciled_not_human_verified

@@ -1,0 +1,50 @@
+{
+  "main_drop_status_composed-r1-0022": [
+    {
+      "cell_id": "main_drop_status_composed",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162440.9188714,
+      "receipt_idx": 1,
+      "t_wall": 1790078752.0377104,
+      "action": {
+        "drop": true,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": false
+    },
+    {
+      "cell_id": "main_drop_status_composed",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162440.9397395,
+      "receipt_idx": 2,
+      "t_wall": 1790078752.0585885,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "main_drop_status_composed",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162440.9412849,
+      "receipt_idx": 3,
+      "t_wall": 1790078752.0601337,
+      "action": {
+        "respond": 200,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 200
+    }
+  ]
+}

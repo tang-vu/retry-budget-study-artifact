@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "main_drop_status_single-r1-0020",
+      "outcome": "success",
+      "status": 200,
+      "transport_attempts": 3,
+      "wrapper_invocations": 1,
+      "wall_s": 0.028555600001709536,
+      "error": null
+    },
+    "op_id": "main_drop_status_single-r1-0020"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "run_id": "run_20261022_120932",
+  "operations": 16,
+  "attempts": 56,
+  "quota_charged": 56,
+  "physical_counts_match": true,
+  "all_complete": true,
+  "effect_counts_match": true,
+  "incomplete_operations": 0,
+  "arms": {
+    "flat": {
+      "operations": 16,
+      "successes": 8,
+      "attempts": 56,
+      "effects": 12
+    }
+  }
+}

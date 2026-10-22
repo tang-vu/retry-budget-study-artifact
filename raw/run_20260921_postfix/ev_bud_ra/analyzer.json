@@ -1,0 +1,30 @@
+{
+  "policy": "p_budget",
+  "outcome": "status",
+  "verdict": "GUARANTEED",
+  "attempts_min": 5.0,
+  "attempts_max": 5.0,
+  "elapsed_min_s": 0.006,
+  "elapsed_max_s": 2.52,
+  "effects_max": 5.0,
+  "warnings": [
+    {
+      "code": "RETRY_AFTER_DOMINATES",
+      "severity": "warn",
+      "message": "layer urllib3: Retry-After 1.0s overrides backoff (cap 21600.0s)"
+    },
+    {
+      "code": "DEADLINE_GATES_ONLY",
+      "severity": "info",
+      "message": "hard deadline blocks NEW attempts only; in-flight I/O and scheduled waits may overshoot by <= 1.020s"
+    }
+  ],
+  "assumptions": [
+    "A1 per-invocation layer state (no cross-op sharing)",
+    "A2 persistent outcome per cell (heterogeneous mixes via simulator)",
+    "A3 loopback attempt-cost model (floors/ceilings documented)",
+    "A4 Windows timer granularity ~15.6ms adds timing uncertainty"
+  ],
+  "repairs": [],
+  "attempts_max_mixed_counters": null
+}

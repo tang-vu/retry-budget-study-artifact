@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "ev_hdline_delay-r1-0024",
+      "outcome": "budget_exhausted",
+      "status": null,
+      "transport_attempts": 3,
+      "wrapper_invocations": 2,
+      "wall_s": 0.8097524999902816,
+      "error": "request budget exhausted: deadline"
+    },
+    "op_id": "ev_hdline_delay-r1-0024"
+  }
+]

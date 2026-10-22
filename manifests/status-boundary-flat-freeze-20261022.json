@@ -1,0 +1,27 @@
+{
+  "type": "post-inspection comparator, frozen before its own execution",
+  "selection": "all eight unchanged method/failure conditions; no outcome-dependent subset",
+  "purpose": "same four-attempt contract; one retry layer; compare recovery as well as count",
+  "previous_status_boundary_run": "raw/status_boundary_20261022",
+  "observations_already_inspected": true,
+  "reservation_attempts": 64,
+  "python": "3.14.8 (main, Oct 14 2026, 01:07:21) [MSC v.1944 64 bit (AMD64)]",
+  "operations": 16,
+  "git_commit": "294bceedde9152fd74e52347e54fe11a4808fea4",
+  "matrix_sha256": "21c59301c6d119c7e454f3b900aa20a354425955c90aa82b64f199613da3cfe4",
+  "source_sha256": {
+    "src\\retry_budget_study\\adapters.py": "897dc9641b6f25050573beb00f4f8d16564ab0ed73b85bcd846070e4bc3ef4fe",
+    "src\\retry_budget_study\\analysis.py": "622324fba53bd1fffea3b3dff4284b7f835e230b5e385330c6a7411b2e6023e6",
+    "src\\retry_budget_study\\analyzer.py": "a8ae2bc56688c003ce3bb47e73d497e1a51089f95b906e3a3a02faa9042283c4",
+    "src\\retry_budget_study\\doctor.py": "bcc3e1f7b76a9ec80eded7cf0d836b916d83c47ed86b6d7133642510859530c1",
+    "src\\retry_budget_study\\fault_server.py": "c6bfab793b474b7540bdcc1cedd8c160042a37c4aab5e8b48174c99d2b071256",
+    "src\\retry_budget_study\\hash_raw.py": "b0269f2b10342ce6388deb551aa391ede761e2b120268aba53a91019c375e378",
+    "src\\retry_budget_study\\ir.py": "000c0e6542ed18f8f7af2fb19abc77398ffacd51895af0c2f7290ae981e4b31d",
+    "src\\retry_budget_study\\ledger.py": "974da0d751e5eb8e6810e5f37c29e890692903c1226410654c5e024d294aa77e",
+    "src\\retry_budget_study\\quota.py": "64a4269fa08672b7d7159c9f2c69e9829f5c084705e14c47bc89ad74f70facf4",
+    "src\\retry_budget_study\\runner.py": "aaf7eb065f0874b8f2947f59836e39cf0f53b9f923b0cd3ba41cea7d36ae469d",
+    "src\\retry_budget_study\\simulator.py": "8fe9f43cbf75b0bc06b331d9d812d49be6dfa9806c87562f2d30d6bd34800dff",
+    "src\\retry_budget_study\\__init__.py": "fe020b3895dcee82ec0da4a8cf5e8e97b4f2aee29c0190c5b3e67b25a145910c",
+    "scripts\\prepare_matched_flat.py": "bcb9ec2e80582bf03657cc81a38c03d80215a9be95464df96aa71456078f377d"
+  }
+}

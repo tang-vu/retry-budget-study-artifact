@@ -1,0 +1,16 @@
+{
+  "nested_result_exhaustion": {
+    "old_analyzer_max": 2.0,
+    "old_simulator_attempts": 2,
+    "real_library_invocations": 6,
+    "real_terminal_exception": "RetryError"
+  },
+  "network_entries": 0,
+  "old_unbounded_status_error": "OverflowError",
+  "soft_stop_lower_bound": {
+    "old_min": 204,
+    "old_max": 204,
+    "virtual_clock_count": 8,
+    "evidence_kind": "model replay within the declared cost interval, not live timing"
+  }
+}

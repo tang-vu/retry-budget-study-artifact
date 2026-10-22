@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "boundary_post_recover_2_shared-r1-0048",
+      "outcome": "success",
+      "status": 200,
+      "transport_attempts": 3,
+      "wrapper_invocations": 6,
+      "wall_s": 0.005965700023807585,
+      "error": null
+    },
+    "op_id": "boundary_post_recover_2_shared-r1-0048"
+  }
+]

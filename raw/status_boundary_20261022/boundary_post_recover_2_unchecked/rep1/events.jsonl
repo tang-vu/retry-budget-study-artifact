@@ -1,0 +1,6 @@
+{"t_mono": 185206.568132, "t_wall": 1792645446.76185, "op_id": "boundary_post_recover_2_unchecked-r1-0042", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 185206.568137, "t_wall": 1792645446.761855, "op_id": "boundary_post_recover_2_unchecked-r1-0042", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185206.568139, "t_wall": 1792645446.761856, "op_id": "boundary_post_recover_2_unchecked-r1-0042", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185206.568764, "t_wall": 1792645446.762482, "op_id": "boundary_post_recover_2_unchecked-r1-0042", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185206.570686, "t_wall": 1792645446.764404, "op_id": "boundary_post_recover_2_unchecked-r1-0042", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185206.570764, "t_wall": 1792645446.764482, "op_id": "boundary_post_recover_2_unchecked-r1-0042", "layer": "op", "kind": "result", "data": {"outcome": "http_error", "status": 503, "attempts": 1, "wall_s": 0.002637}}

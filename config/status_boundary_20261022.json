@@ -1,0 +1,442 @@
+{
+  "matrix_version": "status-boundary-20261022-v1",
+  "defaults": {
+    "connect_timeout_s": 0.15,
+    "read_timeout_s": 0.08,
+    "reps": 2,
+    "contract": {
+      "max_transport_attempts": 4
+    }
+  },
+  "policies": {
+    "unchecked": {
+      "layers": [
+        {
+          "kind": "tenacity",
+          "stop_attempts": 3,
+          "wait_kind": "none",
+          "on_exception": true
+        },
+        {
+          "kind": "urllib3",
+          "total": 3,
+          "status_forcelist": [
+            503
+          ],
+          "backoff_factor": 0,
+          "raise_on_status": false,
+          "allowed_methods": "default"
+        }
+      ]
+    },
+    "checked": {
+      "layers": [
+        {
+          "kind": "tenacity",
+          "stop_attempts": 3,
+          "wait_kind": "none",
+          "on_exception": true
+        },
+        {
+          "kind": "status_check"
+        },
+        {
+          "kind": "urllib3",
+          "total": 3,
+          "status_forcelist": [
+            503
+          ],
+          "backoff_factor": 0,
+          "raise_on_status": false,
+          "allowed_methods": "default"
+        }
+      ]
+    },
+    "single": {
+      "layers": [
+        {
+          "kind": "status_check"
+        },
+        {
+          "kind": "urllib3",
+          "total": 3,
+          "status_forcelist": [
+            503
+          ],
+          "backoff_factor": 0,
+          "raise_on_status": false,
+          "allowed_methods": "default"
+        }
+      ]
+    },
+    "shared": {
+      "layers": [
+        {
+          "kind": "budget",
+          "max_attempts": 4
+        },
+        {
+          "kind": "tenacity",
+          "stop_attempts": 3,
+          "wait_kind": "none",
+          "on_exception": true
+        },
+        {
+          "kind": "status_check"
+        },
+        {
+          "kind": "urllib3",
+          "total": 3,
+          "status_forcelist": [
+            503
+          ],
+          "backoff_factor": 0,
+          "raise_on_status": false,
+          "allowed_methods": "default"
+        }
+      ]
+    }
+  },
+  "failures": {
+    "persistent": {
+      "scenario": {
+        "default": {
+          "respond": 503
+        }
+      },
+      "outcomes": [
+        {
+          "kind": "status",
+          "status": 503
+        }
+      ]
+    },
+    "recover_2": {
+      "scenario": {
+        "plan": [
+          {
+            "respond": 503
+          },
+          {
+            "respond": 503
+          }
+        ],
+        "default": {
+          "respond": 200,
+          "effect": "apply"
+        }
+      },
+      "outcomes": [
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "success"
+        }
+      ]
+    },
+    "recover_4": {
+      "scenario": {
+        "plan": [
+          {
+            "respond": 503
+          },
+          {
+            "respond": 503
+          },
+          {
+            "respond": 503
+          },
+          {
+            "respond": 503
+          }
+        ],
+        "default": {
+          "respond": 200,
+          "effect": "apply"
+        }
+      },
+      "outcomes": [
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "success"
+        }
+      ]
+    },
+    "drop_status": {
+      "scenario": {
+        "plan": [
+          {
+            "drop": true,
+            "effect": "apply"
+          },
+          {
+            "respond": 503
+          }
+        ],
+        "default": {
+          "respond": 200,
+          "effect": "apply"
+        }
+      },
+      "outcomes": [
+        {
+          "kind": "read_err"
+        },
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "success"
+        }
+      ]
+    }
+  },
+  "cells": [
+    {
+      "id": "boundary_get_persistent_unchecked",
+      "method": "GET",
+      "split": "eval",
+      "failure": "persistent",
+      "policy": "unchecked"
+    },
+    {
+      "id": "boundary_get_persistent_checked",
+      "method": "GET",
+      "split": "eval",
+      "failure": "persistent",
+      "policy": "checked"
+    },
+    {
+      "id": "boundary_get_persistent_single",
+      "method": "GET",
+      "split": "eval",
+      "failure": "persistent",
+      "policy": "single"
+    },
+    {
+      "id": "boundary_get_persistent_shared",
+      "method": "GET",
+      "split": "eval",
+      "failure": "persistent",
+      "policy": "shared"
+    },
+    {
+      "id": "boundary_get_recover_2_unchecked",
+      "method": "GET",
+      "split": "eval",
+      "failure": "recover_2",
+      "policy": "unchecked"
+    },
+    {
+      "id": "boundary_get_recover_2_checked",
+      "method": "GET",
+      "split": "eval",
+      "failure": "recover_2",
+      "policy": "checked"
+    },
+    {
+      "id": "boundary_get_recover_2_single",
+      "method": "GET",
+      "split": "eval",
+      "failure": "recover_2",
+      "policy": "single"
+    },
+    {
+      "id": "boundary_get_recover_2_shared",
+      "method": "GET",
+      "split": "eval",
+      "failure": "recover_2",
+      "policy": "shared"
+    },
+    {
+      "id": "boundary_get_recover_4_unchecked",
+      "method": "GET",
+      "split": "eval",
+      "failure": "recover_4",
+      "policy": "unchecked"
+    },
+    {
+      "id": "boundary_get_recover_4_checked",
+      "method": "GET",
+      "split": "eval",
+      "failure": "recover_4",
+      "policy": "checked"
+    },
+    {
+      "id": "boundary_get_recover_4_single",
+      "method": "GET",
+      "split": "eval",
+      "failure": "recover_4",
+      "policy": "single"
+    },
+    {
+      "id": "boundary_get_recover_4_shared",
+      "method": "GET",
+      "split": "eval",
+      "failure": "recover_4",
+      "policy": "shared"
+    },
+    {
+      "id": "boundary_get_drop_status_unchecked",
+      "method": "GET",
+      "split": "eval",
+      "failure": "drop_status",
+      "policy": "unchecked"
+    },
+    {
+      "id": "boundary_get_drop_status_checked",
+      "method": "GET",
+      "split": "eval",
+      "failure": "drop_status",
+      "policy": "checked"
+    },
+    {
+      "id": "boundary_get_drop_status_single",
+      "method": "GET",
+      "split": "eval",
+      "failure": "drop_status",
+      "policy": "single"
+    },
+    {
+      "id": "boundary_get_drop_status_shared",
+      "method": "GET",
+      "split": "eval",
+      "failure": "drop_status",
+      "policy": "shared"
+    },
+    {
+      "id": "boundary_post_persistent_unchecked",
+      "method": "POST",
+      "split": "eval",
+      "failure": "persistent",
+      "policy": "unchecked"
+    },
+    {
+      "id": "boundary_post_persistent_checked",
+      "method": "POST",
+      "split": "eval",
+      "failure": "persistent",
+      "policy": "checked"
+    },
+    {
+      "id": "boundary_post_persistent_single",
+      "method": "POST",
+      "split": "eval",
+      "failure": "persistent",
+      "policy": "single"
+    },
+    {
+      "id": "boundary_post_persistent_shared",
+      "method": "POST",
+      "split": "eval",
+      "failure": "persistent",
+      "policy": "shared"
+    },
+    {
+      "id": "boundary_post_recover_2_unchecked",
+      "method": "POST",
+      "split": "eval",
+      "failure": "recover_2",
+      "policy": "unchecked"
+    },
+    {
+      "id": "boundary_post_recover_2_checked",
+      "method": "POST",
+      "split": "eval",
+      "failure": "recover_2",
+      "policy": "checked"
+    },
+    {
+      "id": "boundary_post_recover_2_single",
+      "method": "POST",
+      "split": "eval",
+      "failure": "recover_2",
+      "policy": "single"
+    },
+    {
+      "id": "boundary_post_recover_2_shared",
+      "method": "POST",
+      "split": "eval",
+      "failure": "recover_2",
+      "policy": "shared"
+    },
+    {
+      "id": "boundary_post_recover_4_unchecked",
+      "method": "POST",
+      "split": "eval",
+      "failure": "recover_4",
+      "policy": "unchecked"
+    },
+    {
+      "id": "boundary_post_recover_4_checked",
+      "method": "POST",
+      "split": "eval",
+      "failure": "recover_4",
+      "policy": "checked"
+    },
+    {
+      "id": "boundary_post_recover_4_single",
+      "method": "POST",
+      "split": "eval",
+      "failure": "recover_4",
+      "policy": "single"
+    },
+    {
+      "id": "boundary_post_recover_4_shared",
+      "method": "POST",
+      "split": "eval",
+      "failure": "recover_4",
+      "policy": "shared"
+    },
+    {
+      "id": "boundary_post_drop_status_unchecked",
+      "method": "POST",
+      "split": "eval",
+      "failure": "drop_status",
+      "policy": "unchecked"
+    },
+    {
+      "id": "boundary_post_drop_status_checked",
+      "method": "POST",
+      "split": "eval",
+      "failure": "drop_status",
+      "policy": "checked"
+    },
+    {
+      "id": "boundary_post_drop_status_single",
+      "method": "POST",
+      "split": "eval",
+      "failure": "drop_status",
+      "policy": "single"
+    },
+    {
+      "id": "boundary_post_drop_status_shared",
+      "method": "POST",
+      "split": "eval",
+      "failure": "drop_status",
+      "policy": "shared"
+    }
+  ]
+}

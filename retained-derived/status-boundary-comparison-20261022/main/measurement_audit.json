@@ -1,0 +1,36 @@
+{
+  "run_id": "run_20261022_120322",
+  "operations": 64,
+  "attempts": 196,
+  "quota_charged": 196,
+  "physical_counts_match": true,
+  "all_complete": true,
+  "effect_counts_match": true,
+  "incomplete_operations": 0,
+  "arms": {
+    "checked": {
+      "operations": 16,
+      "successes": 10,
+      "attempts": 70,
+      "effects": 14
+    },
+    "shared": {
+      "operations": 16,
+      "successes": 8,
+      "attempts": 52,
+      "effects": 12
+    },
+    "single": {
+      "operations": 16,
+      "successes": 4,
+      "attempts": 36,
+      "effects": 8
+    },
+    "unchecked": {
+      "operations": 16,
+      "successes": 4,
+      "attempts": 38,
+      "effects": 8
+    }
+  }
+}

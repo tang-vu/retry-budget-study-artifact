@@ -1,0 +1,294 @@
+{
+  "run_id": "run_20260922_190853",
+  "matrix_sha256": "5113b8f1459eec4b685a41679627fa4c5ede06580268e92b41a56b3f9ad3335c",
+  "matrix_version": "main-1.0",
+  "orchestrator": "0.1.0",
+  "python": "3.14.4",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "clock_info": {
+    "monotonic": {
+      "implementation": "QueryPerformanceCounter()",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-07
+    },
+    "perf_counter": {
+      "implementation": "QueryPerformanceCounter()",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-07
+    }
+  },
+  "attempt_cap": 3000,
+  "cumulative_cap": 3000,
+  "previous_attempts_charged": 2386,
+  "measurement_revision": "physical-entry-completion-v1",
+  "quota_persistence_in_timing": false,
+  "reserved_attempts": 156,
+  "started_wall": 1790078935.1676633,
+  "cells": [
+    {
+      "id": "main_recover_2_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "recover_2",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      },
+      "verdict": "POSSIBLE_BREACH",
+      "attempts_used": 6
+    },
+    {
+      "id": "main_recover_2_composed",
+      "split": "eval",
+      "policy": "composed",
+      "failure": "recover_2",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 12
+    },
+    {
+      "id": "main_recover_2_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "recover_2",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4,
+        "deadline_s": 1.5
+      },
+      "verdict": "POSSIBLE_BREACH",
+      "attempts_used": 18
+    },
+    {
+      "id": "main_recover_4_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "recover_4",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      },
+      "verdict": "POSSIBLE_BREACH",
+      "attempts_used": 24
+    },
+    {
+      "id": "main_recover_4_composed",
+      "split": "eval",
+      "policy": "composed",
+      "failure": "recover_4",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 34
+    },
+    {
+      "id": "main_recover_4_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "recover_4",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4,
+        "deadline_s": 1.5
+      },
+      "verdict": "POSSIBLE_BREACH",
+      "attempts_used": 42
+    },
+    {
+      "id": "main_retry_after_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "retry_after",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      },
+      "verdict": "POSSIBLE_BREACH",
+      "attempts_used": 46
+    },
+    {
+      "id": "main_retry_after_composed",
+      "split": "eval",
+      "policy": "composed",
+      "failure": "retry_after",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 50
+    },
+    {
+      "id": "main_retry_after_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "retry_after",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4,
+        "deadline_s": 1.5
+      },
+      "verdict": "POSSIBLE_BREACH",
+      "attempts_used": 54
+    },
+    {
+      "id": "main_drop_status_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "drop_status",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      },
+      "verdict": "POSSIBLE_BREACH",
+      "attempts_used": 60
+    },
+    {
+      "id": "main_drop_status_composed",
+      "split": "eval",
+      "policy": "composed",
+      "failure": "drop_status",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 66
+    },
+    {
+      "id": "main_drop_status_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "drop_status",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4,
+        "deadline_s": 1.5
+      },
+      "verdict": "POSSIBLE_BREACH",
+      "attempts_used": 72
+    },
+    {
+      "id": "main_delayed_effect_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "delayed_effect",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      },
+      "verdict": "POSSIBLE_BREACH",
+      "attempts_used": 78
+    },
+    {
+      "id": "main_delayed_effect_composed",
+      "split": "eval",
+      "policy": "composed",
+      "failure": "delayed_effect",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 90
+    },
+    {
+      "id": "main_delayed_effect_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "delayed_effect",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4,
+        "deadline_s": 1.5
+      },
+      "verdict": "POSSIBLE_BREACH",
+      "attempts_used": 98
+    },
+    {
+      "id": "main_connect_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "connect",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 104
+    },
+    {
+      "id": "main_connect_composed",
+      "split": "eval",
+      "policy": "composed",
+      "failure": "connect",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 116
+    },
+    {
+      "id": "main_connect_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "connect",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4,
+        "deadline_s": 1.5
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 124
+    }
+  ],
+  "exit_status": "OK",
+  "attempts_used": 124,
+  "cumulative_attempts_charged": 2510,
+  "elapsed_s": 57.435,
+  "finished_wall": 1790078992.6030576
+}

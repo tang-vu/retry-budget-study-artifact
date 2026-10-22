@@ -1,0 +1,8 @@
+{"t_mono": 80326.376074, "t_wall": 1789996640.030212, "op_id": "cal_u3_delay-r1-0018", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 80326.376079, "t_wall": 1789996640.030216, "op_id": "cal_u3_delay-r1-0018", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 80326.639512, "t_wall": 1789996640.29365, "op_id": "cal_u3_delay-r1-0018", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 80326.90285, "t_wall": 1789996640.556989, "op_id": "cal_u3_delay-r1-0018", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 80327.183068, "t_wall": 1789996640.837206, "op_id": "cal_u3_delay-r1-0018", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 80327.449014, "t_wall": 1789996641.103152, "op_id": "cal_u3_delay-r1-0018", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": null}}
+{"t_mono": 80327.449144, "t_wall": 1789996641.103281, "op_id": "cal_u3_delay-r1-0018", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 80327.449174, "t_wall": 1789996641.103311, "op_id": "cal_u3_delay-r1-0018", "layer": "op", "kind": "result", "data": {"outcome": "exception", "status": null, "attempts": 4, "wall_s": 1.073081}}

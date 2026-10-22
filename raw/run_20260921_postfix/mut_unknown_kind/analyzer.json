@@ -1,0 +1,44 @@
+{
+  "policy": "p_ten",
+  "outcome": "status",
+  "verdict": "UNKNOWN",
+  "attempts_min": 1,
+  "attempts_max": null,
+  "elapsed_min_s": 0.0,
+  "elapsed_max_s": null,
+  "effects_max": null,
+  "warnings": [
+    {
+      "code": "UNKNOWN_PREDICATE",
+      "severity": "critical",
+      "message": "layer custom: custom predicate not modelable"
+    }
+  ],
+  "assumptions": [
+    "A1 per-invocation layer state (no cross-op sharing)",
+    "A2 persistent outcome per cell (heterogeneous mixes via simulator)",
+    "A3 loopback attempt-cost model (floors/ceilings documented)",
+    "A4 Windows timer granularity ~15.6ms adds timing uncertainty"
+  ],
+  "repairs": [
+    {
+      "kind": "cap_layer",
+      "layer": "urllib3",
+      "set_max_attempts": 5,
+      "edits": 1,
+      "resulting_bound": 5,
+      "verified_attempts_max": null,
+      "verified_meets_contract": false
+    },
+    {
+      "kind": "add_shared_budget",
+      "budget_attempts": 5,
+      "edits": 1,
+      "resulting_bound": 5,
+      "note": "existing best-practice request-scoped budget",
+      "verified_attempts_max": 5,
+      "verified_meets_contract": true
+    }
+  ],
+  "attempts_max_mixed_counters": null
+}

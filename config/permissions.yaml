@@ -1,0 +1,36 @@
+# permissions.yaml — hard gates for retry-budget-study.
+# These gates are set by the project owner and MUST NOT be raised without
+# explicit human approval. doctor.ps1 enforces them at runtime.
+
+repository:
+  visibility: private            # repo must stay PRIVATE; verified by doctor.ps1
+  public_release: false          # no public release, no submission, no preprint
+  upstream_contact: false        # no contacting library maintainers / upstream
+
+study:
+  phase: main_study              # owner approval 2026-09-22; protocol/main-study-amendment.md
+  human_verified_claims: false   # AI-generated labels are never human_verified;
+                                 # disputed/unclear cases -> UNRESOLVED
+  confirm_authorship: false      # do not self-confirm authorship/ethics/disclosure
+
+budget:
+  money_usd: 0                   # no paid APIs, no billable cloud, no purchases
+  max_physical_attempts: 3000    # hard cap on transport-level request attempts
+                                 # across the whole pilot, replay included
+  max_workers: 1                 # single worker; no load generation
+  max_runtime_minutes: 60
+
+compute:
+  local_cpu_only: true           # no GPU, no cloud instances
+  network: loopback_only         # requests may only target 127.0.0.1 / ::1
+                                 # servers authored inside this repository
+  credentials: forbidden         # never use API keys/credentials found on this machine
+
+external_code:
+  policy: libraries_pinned_only  # real pinned libraries (requests/urllib3/
+                                 # tenacity/httpx) are the study SUBJECTS and may
+                                 # execute; nothing downloaded at run time
+
+safety:
+  shared_resource_lock: required # pilot must hold manifests/.pilot.lock
+  destructive_ops: forbidden     # no force-push, no auto-merge, no branch deletion

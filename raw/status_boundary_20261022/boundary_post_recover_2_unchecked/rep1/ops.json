@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "boundary_post_recover_2_unchecked-r1-0042",
+      "outcome": "http_error",
+      "status": 503,
+      "transport_attempts": 1,
+      "wrapper_invocations": 2,
+      "wall_s": 0.002637099998537451,
+      "error": null
+    },
+    "op_id": "boundary_post_recover_2_unchecked-r1-0042"
+  }
+]

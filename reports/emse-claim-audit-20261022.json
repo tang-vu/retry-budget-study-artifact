@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "independent_of_analysis_helpers": true,
+  "arms": {
+    "unchecked": {
+      "operations": 16,
+      "attempts": 38,
+      "successes": 4,
+      "effects": 8
+    },
+    "checked": {
+      "operations": 16,
+      "attempts": 70,
+      "successes": 10,
+      "effects": 14
+    },
+    "single": {
+      "operations": 16,
+      "attempts": 36,
+      "successes": 4,
+      "effects": 8
+    },
+    "shared": {
+      "operations": 16,
+      "attempts": 52,
+      "successes": 8,
+      "effects": 12
+    },
+    "flat": {
+      "operations": 16,
+      "attempts": 56,
+      "successes": 8,
+      "effects": 12
+    }
+  },
+  "operations": 80,
+  "entries": 252,
+  "raw_files_hashed": 522,
+  "cited_keys": [
+    "airflow_http_600",
+    "cast_seip26",
+    "envoy_retry_budget",
+    "faultweave_fse26",
+    "finagle_retry_budget",
+    "grpc_deadlines",
+    "grpc_retry",
+    "ic2e23_cb_retry",
+    "icse26_nfi",
+    "raf_2026",
+    "requests_api_docs",
+    "retryguard_2025",
+    "sequencefi_2026",
+    "sre_overload_2016",
+    "tenacity_docs",
+    "urllib3_retry_docs",
+    "wasabi_sosp24"
+  ],
+  "offline_comparisons": {
+    "library-state-recheck-20261022": {
+      "cases": 1536,
+      "all_counts_within_bound": true
+    },
+    "status-boundary-offline-20261022": {
+      "cases": 576,
+      "all_counts_within_bound": true
+    },
+    "nested-signal-review-20261022": {
+      "cases": 256,
+      "all_counts_within_bound": true
+    }
+  },
+  "abstract_words": 222,
+  "quota": {
+    "used": 2797,
+    "cap": 3000
+  },
+  "transport_attempts_generated_by_audit": 0
+}

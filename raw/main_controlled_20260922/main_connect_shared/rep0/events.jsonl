@@ -1,0 +1,18 @@
+{"t_mono": 162470.373537, "t_wall": 1790078781.492367, "op_id": "main_connect_shared-r0-0035", "layer": "budget", "kind": "budget_created", "data": {"deadline_mono": 162471.8735351}}
+{"t_mono": 162470.373802, "t_wall": 1790078781.492631, "op_id": "main_connect_shared-r0-0035", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 162470.373806, "t_wall": 1790078781.492635, "op_id": "main_connect_shared-r0-0035", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 162470.373809, "t_wall": 1790078781.492638, "op_id": "main_connect_shared-r0-0035", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 162470.374469, "t_wall": 1790078781.493299, "op_id": "main_connect_shared-r0-0035", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162470.53743, "t_wall": 1790078781.65626, "op_id": "main_connect_shared-r0-0035", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 162470.537651, "t_wall": 1790078781.656481, "op_id": "main_connect_shared-r0-0035", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162470.691303, "t_wall": 1790078781.810134, "op_id": "main_connect_shared-r0-0035", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 162470.69155, "t_wall": 1790078781.81038, "op_id": "main_connect_shared-r0-0035", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162470.846358, "t_wall": 1790078781.965189, "op_id": "main_connect_shared-r0-0035", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": null}}
+{"t_mono": 162470.846408, "t_wall": 1790078781.965238, "op_id": "main_connect_shared-r0-0035", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 162470.862221, "t_wall": 1790078781.981053, "op_id": "main_connect_shared-r0-0035", "layer": "tenacity", "kind": "invoke", "data": {"n": 2}}
+{"t_mono": 162470.862235, "t_wall": 1790078781.981065, "op_id": "main_connect_shared-r0-0035", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 162470.862243, "t_wall": 1790078781.981072, "op_id": "main_connect_shared-r0-0035", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 162470.863453, "t_wall": 1790078781.982284, "op_id": "main_connect_shared-r0-0035", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162471.016462, "t_wall": 1790078782.135293, "op_id": "main_connect_shared-r0-0035", "layer": "urllib3", "kind": "budget_refusal", "data": {"reason": "attempts"}}
+{"t_mono": 162471.016503, "t_wall": 1790078782.135332, "op_id": "main_connect_shared-r0-0035", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 162471.016614, "t_wall": 1790078782.135444, "op_id": "main_connect_shared-r0-0035", "layer": "op", "kind": "result", "data": {"outcome": "budget_exhausted", "status": null, "attempts": 4, "wall_s": 0.642825}}

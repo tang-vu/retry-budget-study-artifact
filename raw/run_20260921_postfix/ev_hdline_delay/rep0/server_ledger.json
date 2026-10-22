@@ -1,0 +1,38 @@
+{
+  "ev_hdline_delay-r0-0023": [
+    {
+      "cell_id": "ev_hdline_delay",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 80337.2131285,
+      "receipt_idx": 1,
+      "t_wall": 1789996650.8672745,
+      "action": {
+        "delay_s": 0.4,
+        "then": {
+          "respond": 200,
+          "effect": "apply"
+        }
+      }
+    },
+    {
+      "cell_id": "ev_hdline_delay",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 80337.4944423,
+      "receipt_idx": 2,
+      "t_wall": 1789996651.1485891,
+      "action": {
+        "delay_s": 0.4,
+        "then": {
+          "respond": 200,
+          "effect": "apply"
+        }
+      },
+      "effect": "apply",
+      "responded": false
+    }
+  ]
+}

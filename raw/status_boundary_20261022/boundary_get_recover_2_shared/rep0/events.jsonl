@@ -1,0 +1,12 @@
+{"t_mono": 185172.740579, "t_wall": 1792645412.934297, "op_id": "boundary_get_recover_2_shared-r0-0015", "layer": "budget", "kind": "budget_created", "data": {"deadline_mono": null}}
+{"t_mono": 185172.740795, "t_wall": 1792645412.934512, "op_id": "boundary_get_recover_2_shared-r0-0015", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 185172.740799, "t_wall": 1792645412.934516, "op_id": "boundary_get_recover_2_shared-r0-0015", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185172.740802, "t_wall": 1792645412.934519, "op_id": "boundary_get_recover_2_shared-r0-0015", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185172.741447, "t_wall": 1792645412.935165, "op_id": "boundary_get_recover_2_shared-r0-0015", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185172.763933, "t_wall": 1792645412.957652, "op_id": "boundary_get_recover_2_shared-r0-0015", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185172.764149, "t_wall": 1792645412.957868, "op_id": "boundary_get_recover_2_shared-r0-0015", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185172.765443, "t_wall": 1792645412.959161, "op_id": "boundary_get_recover_2_shared-r0-0015", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185172.765645, "t_wall": 1792645412.959363, "op_id": "boundary_get_recover_2_shared-r0-0015", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185172.767636, "t_wall": 1792645412.961354, "op_id": "boundary_get_recover_2_shared-r0-0015", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185172.767641, "t_wall": 1792645412.961358, "op_id": "boundary_get_recover_2_shared-r0-0015", "layer": "status_check", "kind": "response_checked", "data": {"status": 200}}
+{"t_mono": 185172.767724, "t_wall": 1792645412.961442, "op_id": "boundary_get_recover_2_shared-r0-0015", "layer": "op", "kind": "result", "data": {"outcome": "success", "status": 200, "attempts": 3, "wall_s": 0.026937}}

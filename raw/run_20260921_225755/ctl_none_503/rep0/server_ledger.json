@@ -1,0 +1,20 @@
+{
+  "ctl_none_503-r0-0054": [
+    {
+      "cell_id": "ctl_none_503",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 90159.2610448,
+      "receipt_idx": 1,
+      "t_wall": 1790006472.9151864,
+      "action": {
+        "respond": 503,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 503
+    }
+  ]
+}

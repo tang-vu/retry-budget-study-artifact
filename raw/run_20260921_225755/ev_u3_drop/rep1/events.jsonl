@@ -1,0 +1,8 @@
+{"t_mono": 90082.753214, "t_wall": 1790006396.407351, "op_id": "ev_u3_drop-r1-0036", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 90082.75322, "t_wall": 1790006396.407357, "op_id": "ev_u3_drop-r1-0036", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 90082.756296, "t_wall": 1790006396.410433, "op_id": "ev_u3_drop-r1-0036", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 90082.757565, "t_wall": 1790006396.411702, "op_id": "ev_u3_drop-r1-0036", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 90082.758812, "t_wall": 1790006396.412949, "op_id": "ev_u3_drop-r1-0036", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 90082.781693, "t_wall": 1790006396.43583, "op_id": "ev_u3_drop-r1-0036", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": null}}
+{"t_mono": 90082.781733, "t_wall": 1790006396.43587, "op_id": "ev_u3_drop-r1-0036", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 90082.781762, "t_wall": 1790006396.435899, "op_id": "ev_u3_drop-r1-0036", "layer": "op", "kind": "result", "data": {"outcome": "exception", "status": null, "attempts": 4, "wall_s": 0.028531}}

@@ -1,0 +1,8 @@
+{
+  "cases": 256,
+  "within_bound": 256,
+  "simulator_agrees": 256,
+  "mismatches": [],
+  "transport_attempts": 0,
+  "post_inspection": true
+}

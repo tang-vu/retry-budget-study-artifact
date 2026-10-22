@@ -1,0 +1,16 @@
+{"t_mono": 80336.047069, "t_wall": 1789996649.701206, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 80336.047077, "t_wall": 1789996649.701213, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 80336.047079, "t_wall": 1789996649.701216, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 80336.337929, "t_wall": 1789996649.992068, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "ReadTimeoutError", "status": null}}
+{"t_mono": 80336.33809, "t_wall": 1789996649.992228, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 80336.358633, "t_wall": 1789996650.012771, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "tenacity", "kind": "invoke", "data": {"n": 2}}
+{"t_mono": 80336.358643, "t_wall": 1789996650.01278, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 80336.358646, "t_wall": 1789996650.012783, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 80336.648862, "t_wall": 1789996650.303, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "ReadTimeoutError", "status": null}}
+{"t_mono": 80336.648965, "t_wall": 1789996650.303102, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 80336.669224, "t_wall": 1789996650.323361, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "tenacity", "kind": "invoke", "data": {"n": 3}}
+{"t_mono": 80336.669233, "t_wall": 1789996650.32337, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 80336.669237, "t_wall": 1789996650.323374, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 80336.946298, "t_wall": 1789996650.600437, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "ReadTimeoutError", "status": null}}
+{"t_mono": 80336.946491, "t_wall": 1789996650.600628, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 80336.946664, "t_wall": 1789996650.600801, "op_id": "ev_u3ten_delay_post-r1-0022", "layer": "op", "kind": "result", "data": {"outcome": "exception", "status": null, "attempts": 3, "wall_s": 0.899657}}

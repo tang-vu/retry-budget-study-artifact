@@ -1,0 +1,43 @@
+{
+  "paths": {
+    "Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0),Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0),Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0),Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0),Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 5,
+      "elapsed_s": 2.7700000000000005,
+      "effects": 0,
+      "signal": "terminal_exception"
+    },
+    "Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0),Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0),Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0),Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 5,
+      "elapsed_s": 2.24,
+      "effects": 1,
+      "signal": "success"
+    },
+    "Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0),Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0),Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 4,
+      "elapsed_s": 1.6700000000000002,
+      "effects": 1,
+      "signal": "success"
+    },
+    "Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0),Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 3,
+      "elapsed_s": 1.12,
+      "effects": 1,
+      "signal": "success"
+    },
+    "Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 2,
+      "elapsed_s": 0.5700000000000001,
+      "effects": 1,
+      "signal": "success"
+    },
+    "Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 1,
+      "elapsed_s": 0.02,
+      "effects": 1,
+      "signal": "success"
+    }
+  },
+  "max_attempts": 5,
+  "max_elapsed_s": 2.7700000000000005,
+  "n_paths": 6
+}

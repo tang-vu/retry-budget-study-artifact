@@ -1,0 +1,18 @@
+{"t_mono": 162397.856778, "t_wall": 1790078708.975609, "op_id": "main_recover_4_composed-r1-0010", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 162397.856784, "t_wall": 1790078708.975614, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 162397.856786, "t_wall": 1790078708.975616, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 162397.857503, "t_wall": 1790078708.976333, "op_id": "main_recover_4_composed-r1-0010", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162397.882958, "t_wall": 1790078709.001788, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 162397.883091, "t_wall": 1790078709.001921, "op_id": "main_recover_4_composed-r1-0010", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162397.884123, "t_wall": 1790078709.002953, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 162397.884229, "t_wall": 1790078709.003059, "op_id": "main_recover_4_composed-r1-0010", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162397.885314, "t_wall": 1790078709.004144, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": 503}}
+{"t_mono": 162397.885519, "t_wall": 1790078709.004349, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 162397.901304, "t_wall": 1790078709.020135, "op_id": "main_recover_4_composed-r1-0010", "layer": "tenacity", "kind": "invoke", "data": {"n": 2}}
+{"t_mono": 162397.901317, "t_wall": 1790078709.020147, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 162397.901321, "t_wall": 1790078709.020151, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 162397.902421, "t_wall": 1790078709.021251, "op_id": "main_recover_4_composed-r1-0010", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162397.903627, "t_wall": 1790078709.022458, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 162397.903745, "t_wall": 1790078709.022575, "op_id": "main_recover_4_composed-r1-0010", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162397.904943, "t_wall": 1790078709.023772, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 162397.905021, "t_wall": 1790078709.023851, "op_id": "main_recover_4_composed-r1-0010", "layer": "op", "kind": "result", "data": {"outcome": "success", "status": 200, "attempts": 5, "wall_s": 0.048266}}

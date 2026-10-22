@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "boundary_get_persistent_single-r1-0006",
+      "outcome": "exception",
+      "status": null,
+      "transport_attempts": 4,
+      "wrapper_invocations": 1,
+      "wall_s": 0.023508999991463497,
+      "error": "HTTPError"
+    },
+    "op_id": "boundary_get_persistent_single-r1-0006"
+  }
+]

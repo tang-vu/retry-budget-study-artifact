@@ -1,0 +1,9 @@
+# Pinned dependencies for retry-budget-study (see manifests/tool_manifest.json for pin dates)
+requests==2.34.2
+urllib3==2.6.3
+tenacity==9.1.4
+httpx==0.28.1
+# httpcore carries the retried-attempt semantics under study (connect
+# retries + exponential backoff + trace extension) — pin it explicitly,
+# do not leave the retry-bearing transitive dep floating
+httpcore==1.0.9

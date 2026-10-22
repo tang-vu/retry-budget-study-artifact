@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "ev_rep_delay-r1-0026",
+      "outcome": "exception",
+      "status": null,
+      "transport_attempts": 3,
+      "wrapper_invocations": 6,
+      "wall_s": 0.8701675999909639,
+      "error": "ConnectionError"
+    },
+    "op_id": "ev_rep_delay-r1-0026"
+  }
+]

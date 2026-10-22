@@ -1,0 +1,85 @@
+{
+  "paths": {
+    "Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4)": {
+      "attempts": 12,
+      "elapsed_s": 3.2800000000000002,
+      "effects": 12,
+      "signal": "exception"
+    },
+    "Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 12,
+      "elapsed_s": 3.0300000000000002,
+      "effects": 12,
+      "signal": "success"
+    },
+    "Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 11,
+      "elapsed_s": 2.7600000000000002,
+      "effects": 11,
+      "signal": "success"
+    },
+    "Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 10,
+      "elapsed_s": 2.49,
+      "effects": 10,
+      "signal": "success"
+    },
+    "Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 9,
+      "elapsed_s": 2.22,
+      "effects": 9,
+      "signal": "success"
+    },
+    "Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 8,
+      "elapsed_s": 1.9300000000000002,
+      "effects": 8,
+      "signal": "success"
+    },
+    "Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 7,
+      "elapsed_s": 1.6600000000000001,
+      "effects": 7,
+      "signal": "success"
+    },
+    "Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 6,
+      "elapsed_s": 1.3900000000000001,
+      "effects": 6,
+      "signal": "success"
+    },
+    "Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 5,
+      "elapsed_s": 1.12,
+      "effects": 5,
+      "signal": "success"
+    },
+    "Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 4,
+      "elapsed_s": 0.8300000000000001,
+      "effects": 4,
+      "signal": "success"
+    },
+    "Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 3,
+      "elapsed_s": 0.56,
+      "effects": 3,
+      "signal": "success"
+    },
+    "Outcome(kind='read_err', status=0, retry_after_s=None, delay_s=0.4),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 2,
+      "elapsed_s": 0.29000000000000004,
+      "effects": 2,
+      "signal": "success"
+    },
+    "Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 1,
+      "elapsed_s": 0.02,
+      "effects": 1,
+      "signal": "success"
+    }
+  },
+  "max_attempts": 12,
+  "max_elapsed_s": 3.2800000000000002,
+  "n_paths": 13
+}

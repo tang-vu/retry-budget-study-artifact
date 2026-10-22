@@ -1,0 +1,50 @@
+{
+  "flat_get_drop_status-r0-0007": [
+    {
+      "cell_id": "flat_get_drop_status",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 185541.4940361,
+      "receipt_idx": 1,
+      "t_wall": 1792645781.6877627,
+      "action": {
+        "drop": true,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": false
+    },
+    {
+      "cell_id": "flat_get_drop_status",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 185541.5090298,
+      "receipt_idx": 2,
+      "t_wall": 1792645781.702763,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "flat_get_drop_status",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 185541.5107086,
+      "receipt_idx": 3,
+      "t_wall": 1792645781.7044308,
+      "action": {
+        "respond": 200,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{"t_mono": 89965.509735, "t_wall": 1790006279.163872, "op_id": "ev_u3ten_503-r0-0005", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 89965.50974, "t_wall": 1790006279.163877, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 89965.509742, "t_wall": 1790006279.163878, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 89965.513137, "t_wall": 1790006279.167275, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 89965.514478, "t_wall": 1790006279.168615, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 89965.515583, "t_wall": 1790006279.16972, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 89965.51625, "t_wall": 1790006279.170387, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": 503}}
+{"t_mono": 89965.516656, "t_wall": 1790006279.170793, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 89965.53738, "t_wall": 1790006279.191518, "op_id": "ev_u3ten_503-r0-0005", "layer": "tenacity", "kind": "invoke", "data": {"n": 2}}
+{"t_mono": 89965.537389, "t_wall": 1790006279.191527, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 89965.537391, "t_wall": 1790006279.191528, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 89965.539448, "t_wall": 1790006279.193585, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 89965.540451, "t_wall": 1790006279.194588, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 89965.541529, "t_wall": 1790006279.195667, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 89965.542544, "t_wall": 1790006279.196682, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": 503}}
+{"t_mono": 89965.542705, "t_wall": 1790006279.196842, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 89965.563622, "t_wall": 1790006279.217761, "op_id": "ev_u3ten_503-r0-0005", "layer": "tenacity", "kind": "invoke", "data": {"n": 3}}
+{"t_mono": 89965.563636, "t_wall": 1790006279.217773, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 89965.563639, "t_wall": 1790006279.217776, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 89965.566021, "t_wall": 1790006279.220158, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 89965.567038, "t_wall": 1790006279.221175, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 89965.567825, "t_wall": 1790006279.221963, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 89965.56856, "t_wall": 1790006279.222698, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": 503}}
+{"t_mono": 89965.56869, "t_wall": 1790006279.222827, "op_id": "ev_u3ten_503-r0-0005", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 89965.568779, "t_wall": 1790006279.222916, "op_id": "ev_u3ten_503-r0-0005", "layer": "op", "kind": "result", "data": {"outcome": "exception", "status": null, "attempts": 12, "wall_s": 0.059055}}

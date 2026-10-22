@@ -1,0 +1,10 @@
+{"t_mono": 185189.646967, "t_wall": 1792645429.840685, "op_id": "boundary_get_drop_status_single-r1-0030", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185189.646972, "t_wall": 1792645429.840689, "op_id": "boundary_get_drop_status_single-r1-0030", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185189.647702, "t_wall": 1792645429.84142, "op_id": "boundary_get_drop_status_single-r1-0030", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185189.649335, "t_wall": 1792645429.843053, "op_id": "boundary_get_drop_status_single-r1-0030", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185189.649487, "t_wall": 1792645429.843205, "op_id": "boundary_get_drop_status_single-r1-0030", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185189.673905, "t_wall": 1792645429.867623, "op_id": "boundary_get_drop_status_single-r1-0030", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185189.674014, "t_wall": 1792645429.867732, "op_id": "boundary_get_drop_status_single-r1-0030", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185189.67539, "t_wall": 1792645429.869108, "op_id": "boundary_get_drop_status_single-r1-0030", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185189.675395, "t_wall": 1792645429.869112, "op_id": "boundary_get_drop_status_single-r1-0030", "layer": "status_check", "kind": "response_checked", "data": {"status": 200}}
+{"t_mono": 185189.675437, "t_wall": 1792645429.869154, "op_id": "boundary_get_drop_status_single-r1-0030", "layer": "op", "kind": "result", "data": {"outcome": "success", "status": 200, "attempts": 3, "wall_s": 0.028451}}

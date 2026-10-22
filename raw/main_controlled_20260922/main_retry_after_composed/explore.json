@@ -1,0 +1,49 @@
+{
+  "paths": {
+    "Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0)": {
+      "attempts": 6,
+      "elapsed_s": 4.135,
+      "effects": 6,
+      "signal": "exception"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 6,
+      "elapsed_s": 4.135,
+      "effects": 6,
+      "signal": "success"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 5,
+      "elapsed_s": 3.115,
+      "effects": 5,
+      "signal": "success"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 4,
+      "elapsed_s": 2.095,
+      "effects": 4,
+      "signal": "success"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 3,
+      "elapsed_s": 2.06,
+      "effects": 3,
+      "signal": "success"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 2,
+      "elapsed_s": 1.04,
+      "effects": 2,
+      "signal": "success"
+    },
+    "Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 1,
+      "elapsed_s": 0.02,
+      "effects": 1,
+      "signal": "success"
+    }
+  },
+  "max_attempts": 6,
+  "max_elapsed_s": 4.135,
+  "n_paths": 7
+}

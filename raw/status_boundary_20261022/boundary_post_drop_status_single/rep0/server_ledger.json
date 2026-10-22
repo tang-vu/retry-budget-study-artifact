@@ -1,0 +1,19 @@
+{
+  "boundary_post_drop_status_single-r0-0061": [
+    {
+      "cell_id": "boundary_post_drop_status_single",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 185228.6447123,
+      "receipt_idx": 1,
+      "t_wall": 1792645468.8384354,
+      "action": {
+        "drop": true,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": false
+    }
+  ]
+}

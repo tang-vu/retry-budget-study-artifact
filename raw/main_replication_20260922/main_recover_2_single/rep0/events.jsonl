@@ -1,0 +1,9 @@
+{"t_mono": 162624.058357, "t_wall": 1790078935.177188, "op_id": "main_recover_2_single-r0-0001", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 162624.058369, "t_wall": 1790078935.177198, "op_id": "main_recover_2_single-r0-0001", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 162624.059499, "t_wall": 1790078935.178329, "op_id": "main_recover_2_single-r0-0001", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162624.062057, "t_wall": 1790078935.180887, "op_id": "main_recover_2_single-r0-0001", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 162624.062276, "t_wall": 1790078935.181106, "op_id": "main_recover_2_single-r0-0001", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162624.063273, "t_wall": 1790078935.182102, "op_id": "main_recover_2_single-r0-0001", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 162624.063385, "t_wall": 1790078935.182215, "op_id": "main_recover_2_single-r0-0001", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162624.064501, "t_wall": 1790078935.183331, "op_id": "main_recover_2_single-r0-0001", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 162624.064572, "t_wall": 1790078935.183401, "op_id": "main_recover_2_single-r0-0001", "layer": "op", "kind": "result", "data": {"outcome": "success", "status": 200, "attempts": 3, "wall_s": 0.00618}}

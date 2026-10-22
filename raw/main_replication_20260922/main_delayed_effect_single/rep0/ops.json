@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "main_delayed_effect_single-r0-0025",
+      "outcome": "exception",
+      "status": null,
+      "transport_attempts": 3,
+      "wrapper_invocations": 1,
+      "wall_s": 0.28000459997565486,
+      "error": "ConnectionError"
+    },
+    "op_id": "main_delayed_effect_single-r0-0025"
+  }
+]

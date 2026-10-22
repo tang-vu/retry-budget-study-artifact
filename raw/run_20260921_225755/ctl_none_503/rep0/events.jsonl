@@ -1,0 +1,4 @@
+{"t_mono": 90159.258828, "t_wall": 1790006472.912966, "op_id": "ctl_none_503-r0-0054", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 90159.258833, "t_wall": 1790006472.91297, "op_id": "ctl_none_503-r0-0054", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 90159.261901, "t_wall": 1790006472.916039, "op_id": "ctl_none_503-r0-0054", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 90159.261938, "t_wall": 1790006472.916075, "op_id": "ctl_none_503-r0-0054", "layer": "op", "kind": "result", "data": {"outcome": "http_error", "status": 503, "attempts": 1, "wall_s": 0.003083}}

@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "ev_bud_drop-r0-0039",
+      "outcome": "budget_exhausted",
+      "status": null,
+      "transport_attempts": 5,
+      "wrapper_invocations": 4,
+      "wall_s": 0.09700059999886435,
+      "error": "request budget exhausted: attempts"
+    },
+    "op_id": "ev_bud_drop-r0-0039"
+  }
+]

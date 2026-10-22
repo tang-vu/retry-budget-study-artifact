@@ -1,0 +1,50 @@
+{
+  "main_drop_status_shared-r0-0023": [
+    {
+      "cell_id": "main_drop_status_shared",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162446.4664095,
+      "receipt_idx": 1,
+      "t_wall": 1790078757.585247,
+      "action": {
+        "drop": true,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": false
+    },
+    {
+      "cell_id": "main_drop_status_shared",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162446.4823448,
+      "receipt_idx": 2,
+      "t_wall": 1790078757.601189,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "main_drop_status_shared",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162446.4837224,
+      "receipt_idx": 3,
+      "t_wall": 1790078757.6025581,
+      "action": {
+        "respond": 200,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 200
+    }
+  ]
+}

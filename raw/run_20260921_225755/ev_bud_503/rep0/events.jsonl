@@ -1,0 +1,14 @@
+{"t_mono": 89969.184362, "t_wall": 1790006282.8385, "op_id": "ev_bud_503-r0-0011", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 89969.184371, "t_wall": 1790006282.838508, "op_id": "ev_bud_503-r0-0011", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 89969.184384, "t_wall": 1790006282.838521, "op_id": "ev_bud_503-r0-0011", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 89969.188701, "t_wall": 1790006282.842839, "op_id": "ev_bud_503-r0-0011", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 89969.189785, "t_wall": 1790006282.843922, "op_id": "ev_bud_503-r0-0011", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 89969.190614, "t_wall": 1790006282.844752, "op_id": "ev_bud_503-r0-0011", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 89969.191612, "t_wall": 1790006282.845749, "op_id": "ev_bud_503-r0-0011", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": 503}}
+{"t_mono": 89969.191714, "t_wall": 1790006282.845851, "op_id": "ev_bud_503-r0-0011", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 89969.212827, "t_wall": 1790006282.866965, "op_id": "ev_bud_503-r0-0011", "layer": "tenacity", "kind": "invoke", "data": {"n": 2}}
+{"t_mono": 89969.212839, "t_wall": 1790006282.866976, "op_id": "ev_bud_503-r0-0011", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 89969.212851, "t_wall": 1790006282.866988, "op_id": "ev_bud_503-r0-0011", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 89969.214711, "t_wall": 1790006282.868848, "op_id": "ev_bud_503-r0-0011", "layer": "urllib3", "kind": "budget_refusal", "data": {"reason": "attempts"}}
+{"t_mono": 89969.21473, "t_wall": 1790006282.868867, "op_id": "ev_bud_503-r0-0011", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 89969.214793, "t_wall": 1790006282.86893, "op_id": "ev_bud_503-r0-0011", "layer": "op", "kind": "result", "data": {"outcome": "budget_exhausted", "status": null, "attempts": 5, "wall_s": 0.030476}}

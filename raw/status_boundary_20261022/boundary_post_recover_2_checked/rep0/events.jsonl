@@ -1,0 +1,19 @@
+{"t_mono": 185207.087549, "t_wall": 1792645447.281268, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 185207.087558, "t_wall": 1792645447.281276, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185207.087561, "t_wall": 1792645447.281279, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185207.088734, "t_wall": 1792645447.282453, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185207.10912, "t_wall": 1792645447.302837, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185207.109125, "t_wall": 1792645447.302842, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "status_check", "kind": "response_checked", "data": {"status": 503}}
+{"t_mono": 185207.109238, "t_wall": 1792645447.302956, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "tenacity", "kind": "invoke", "data": {"n": 2}}
+{"t_mono": 185207.109241, "t_wall": 1792645447.302958, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185207.109242, "t_wall": 1792645447.30296, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185207.1098, "t_wall": 1792645447.303518, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185207.113019, "t_wall": 1792645447.306737, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185207.113023, "t_wall": 1792645447.30674, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "status_check", "kind": "response_checked", "data": {"status": 503}}
+{"t_mono": 185207.113259, "t_wall": 1792645447.306977, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "tenacity", "kind": "invoke", "data": {"n": 3}}
+{"t_mono": 185207.113263, "t_wall": 1792645447.30698, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185207.113265, "t_wall": 1792645447.306982, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185207.114229, "t_wall": 1792645447.307946, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185207.116317, "t_wall": 1792645447.310035, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185207.116322, "t_wall": 1792645447.310039, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "status_check", "kind": "response_checked", "data": {"status": 200}}
+{"t_mono": 185207.116433, "t_wall": 1792645447.310151, "op_id": "boundary_post_recover_2_checked-r0-0043", "layer": "op", "kind": "result", "data": {"outcome": "success", "status": 200, "attempts": 3, "wall_s": 0.028919}}

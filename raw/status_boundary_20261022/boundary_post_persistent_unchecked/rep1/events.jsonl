@@ -1,0 +1,6 @@
+{"t_mono": 185196.320431, "t_wall": 1792645436.514149, "op_id": "boundary_post_persistent_unchecked-r1-0034", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 185196.320436, "t_wall": 1792645436.514153, "op_id": "boundary_post_persistent_unchecked-r1-0034", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185196.320437, "t_wall": 1792645436.514155, "op_id": "boundary_post_persistent_unchecked-r1-0034", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185196.321009, "t_wall": 1792645436.514727, "op_id": "boundary_post_persistent_unchecked-r1-0034", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185196.34367, "t_wall": 1792645436.537388, "op_id": "boundary_post_persistent_unchecked-r1-0034", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185196.343742, "t_wall": 1792645436.537459, "op_id": "boundary_post_persistent_unchecked-r1-0034", "layer": "op", "kind": "result", "data": {"outcome": "http_error", "status": 503, "attempts": 1, "wall_s": 0.023326}}

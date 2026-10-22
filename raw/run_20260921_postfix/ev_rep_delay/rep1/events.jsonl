@@ -1,0 +1,16 @@
+{"t_mono": 80340.136555, "t_wall": 1789996653.790692, "op_id": "ev_rep_delay-r1-0026", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 80340.136559, "t_wall": 1789996653.790696, "op_id": "ev_rep_delay-r1-0026", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 80340.136561, "t_wall": 1789996653.790698, "op_id": "ev_rep_delay-r1-0026", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 80340.414492, "t_wall": 1789996654.06863, "op_id": "ev_rep_delay-r1-0026", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": null}}
+{"t_mono": 80340.414652, "t_wall": 1789996654.068789, "op_id": "ev_rep_delay-r1-0026", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 80340.435858, "t_wall": 1789996654.089996, "op_id": "ev_rep_delay-r1-0026", "layer": "tenacity", "kind": "invoke", "data": {"n": 2}}
+{"t_mono": 80340.435869, "t_wall": 1789996654.090006, "op_id": "ev_rep_delay-r1-0026", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 80340.435872, "t_wall": 1789996654.090009, "op_id": "ev_rep_delay-r1-0026", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 80340.725501, "t_wall": 1789996654.379639, "op_id": "ev_rep_delay-r1-0026", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": null}}
+{"t_mono": 80340.72566, "t_wall": 1789996654.379797, "op_id": "ev_rep_delay-r1-0026", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 80340.746461, "t_wall": 1789996654.400599, "op_id": "ev_rep_delay-r1-0026", "layer": "tenacity", "kind": "invoke", "data": {"n": 3}}
+{"t_mono": 80340.746471, "t_wall": 1789996654.400608, "op_id": "ev_rep_delay-r1-0026", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 80340.746474, "t_wall": 1789996654.400611, "op_id": "ev_rep_delay-r1-0026", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 80341.006369, "t_wall": 1789996654.660507, "op_id": "ev_rep_delay-r1-0026", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": null}}
+{"t_mono": 80341.006546, "t_wall": 1789996654.660683, "op_id": "ev_rep_delay-r1-0026", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 80341.00673, "t_wall": 1789996654.660867, "op_id": "ev_rep_delay-r1-0026", "layer": "op", "kind": "result", "data": {"outcome": "exception", "status": null, "attempts": 3, "wall_s": 0.870168}}

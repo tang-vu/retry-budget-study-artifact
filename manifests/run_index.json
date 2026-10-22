@@ -1,0 +1,87 @@
+[
+  {
+    "run_id": "run_20260921_130318",
+    "dir": "raw/smoke1",
+    "exit_status": "ERROR: NameError: name 'httpx_only' is not defined",
+    "attempts_used": 0
+  },
+  {
+    "run_id": "run_20260921_130457",
+    "dir": "raw/smoke1",
+    "exit_status": "ERROR: RetryError: RetryError[<Future at 0x228c4209e50 state=finished returned Response>]",
+    "attempts_used": 8
+  },
+  {
+    "run_id": "run_20260921_130717",
+    "dir": "raw/smoke1",
+    "exit_status": "OK",
+    "attempts_used": 374
+  },
+  {
+    "run_id": "run_20260921_134729",
+    "dir": "raw\\run_20260921_134729",
+    "exit_status": "OK",
+    "attempts_used": 373
+  },
+  {
+    "run_id": "run_20260921_140024",
+    "dir": "raw\\run_20260921_140024",
+    "exit_status": "OK",
+    "attempts_used": 373
+  },
+  {
+    "run_id": "run_20260921_141417",
+    "dir": "raw\\run_20260921_141417",
+    "exit_status": "OK",
+    "attempts_used": 373
+  },
+  {
+    "run_id": "run_20260921_201710",
+    "dir": "raw/run_20260921_postfix",
+    "exit_status": "OK",
+    "attempts_used": 378
+  },
+  {
+    "run_id": "run_20260921_225755",
+    "dir": "raw/run_20260921_225755",
+    "exit_status": "OK",
+    "attempts_used": 379
+  },
+  {
+    "run_id": "run_20260922_190304",
+    "dir": "raw/main_development_20260922",
+    "exit_status": "OK",
+    "attempts_used": 4
+  },
+  {
+    "run_id": "run_20260922_190503",
+    "dir": "raw/main_controlled_20260922",
+    "exit_status": "OK",
+    "attempts_used": 124
+  },
+  {
+    "run_id": "run_20260922_190853",
+    "dir": "raw/main_replication_20260922",
+    "exit_status": "OK",
+    "attempts_used": 124
+  },
+  {
+    "run_id": "quota-tests-20261022T120210",
+    "dir": null,
+    "exit_status": "OK",
+    "attempts_used": 35,
+    "purpose": "harness regression; not study sample"
+  },
+  {
+    "run_id": "run_20261022_120322",
+    "dir": "raw\\status_boundary_20261022",
+    "exit_status": "OK",
+    "attempts_used": 196
+  },
+  {
+    "run_id": "run_20261022_120932",
+    "dir": "raw\\status_boundary_flat_20261022",
+    "exit_status": "OK",
+    "attempts_used": 56
+  }
+]

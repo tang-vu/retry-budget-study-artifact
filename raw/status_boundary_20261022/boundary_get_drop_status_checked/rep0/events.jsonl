@@ -1,0 +1,11 @@
+{"t_mono": 185183.331914, "t_wall": 1792645423.525632, "op_id": "boundary_get_drop_status_checked-r0-0027", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 185183.331919, "t_wall": 1792645423.525637, "op_id": "boundary_get_drop_status_checked-r0-0027", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185183.331921, "t_wall": 1792645423.525639, "op_id": "boundary_get_drop_status_checked-r0-0027", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185183.332524, "t_wall": 1792645423.526242, "op_id": "boundary_get_drop_status_checked-r0-0027", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185183.351, "t_wall": 1792645423.544719, "op_id": "boundary_get_drop_status_checked-r0-0027", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185183.351203, "t_wall": 1792645423.544921, "op_id": "boundary_get_drop_status_checked-r0-0027", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185183.367392, "t_wall": 1792645423.56111, "op_id": "boundary_get_drop_status_checked-r0-0027", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185183.367538, "t_wall": 1792645423.561255, "op_id": "boundary_get_drop_status_checked-r0-0027", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185183.368876, "t_wall": 1792645423.562594, "op_id": "boundary_get_drop_status_checked-r0-0027", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185183.368881, "t_wall": 1792645423.562599, "op_id": "boundary_get_drop_status_checked-r0-0027", "layer": "status_check", "kind": "response_checked", "data": {"status": 200}}
+{"t_mono": 185183.368976, "t_wall": 1792645423.562693, "op_id": "boundary_get_drop_status_checked-r0-0027", "layer": "op", "kind": "result", "data": {"outcome": "success", "status": 200, "attempts": 3, "wall_s": 0.037075}}

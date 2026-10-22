@@ -1,0 +1,6 @@
+{"t_mono": 80341.265189, "t_wall": 1789996654.919326, "op_id": "ev_u3_ra-r0-0027", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 80341.265196, "t_wall": 1789996654.919333, "op_id": "ev_u3_ra-r0-0027", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 80342.2897, "t_wall": 1789996655.943839, "op_id": "ev_u3_ra-r0-0027", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 80343.291726, "t_wall": 1789996656.945865, "op_id": "ev_u3_ra-r0-0027", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 80343.293062, "t_wall": 1789996656.947199, "op_id": "ev_u3_ra-r0-0027", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 80343.293084, "t_wall": 1789996656.947221, "op_id": "ev_u3_ra-r0-0027", "layer": "op", "kind": "result", "data": {"outcome": "success", "status": 200, "attempts": 3, "wall_s": 2.027881}}

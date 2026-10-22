@@ -1,0 +1,50 @@
+{
+  "boundary_post_recover_2_checked-r0-0043": [
+    {
+      "cell_id": "boundary_post_recover_2_checked",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 185207.1059722,
+      "receipt_idx": 1,
+      "t_wall": 1792645447.299703,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "boundary_post_recover_2_checked",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 185207.1111049,
+      "receipt_idx": 2,
+      "t_wall": 1792645447.3048348,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "boundary_post_recover_2_checked",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 185207.1150504,
+      "receipt_idx": 3,
+      "t_wall": 1792645447.308775,
+      "action": {
+        "respond": 200,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 200
+    }
+  ]
+}

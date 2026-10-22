@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "ev_u3ten_drop-r1-0038",
+      "outcome": "exception",
+      "status": null,
+      "transport_attempts": 12,
+      "wrapper_invocations": 6,
+      "wall_s": 0.19798240000091027,
+      "error": "ConnectionError"
+    },
+    "op_id": "ev_u3ten_drop-r1-0038"
+  }
+]

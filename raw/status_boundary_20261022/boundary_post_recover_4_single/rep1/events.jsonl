@@ -1,0 +1,6 @@
+{"t_mono": 185215.865517, "t_wall": 1792645456.059236, "op_id": "boundary_post_recover_4_single-r1-0054", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185215.865522, "t_wall": 1792645456.059239, "op_id": "boundary_post_recover_4_single-r1-0054", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185215.866202, "t_wall": 1792645456.05992, "op_id": "boundary_post_recover_4_single-r1-0054", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185215.890212, "t_wall": 1792645456.08393, "op_id": "boundary_post_recover_4_single-r1-0054", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185215.890218, "t_wall": 1792645456.083935, "op_id": "boundary_post_recover_4_single-r1-0054", "layer": "status_check", "kind": "response_checked", "data": {"status": 503}}
+{"t_mono": 185215.890449, "t_wall": 1792645456.084166, "op_id": "boundary_post_recover_4_single-r1-0054", "layer": "op", "kind": "result", "data": {"outcome": "exception", "status": null, "attempts": 1, "wall_s": 0.024911}}

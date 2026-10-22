@@ -1,0 +1,44 @@
+{
+  "type": "pre-execution design freeze; authored, source-informed, not preregistered field sample",
+  "source": {
+    "url": "https://airflow.apache.org/docs/apache-airflow-providers-http/6.0.0/_modules/airflow/providers/http/hooks/http.html",
+    "version": "apache-airflow-providers-http 6.0.0",
+    "consulted": "2026-10-22",
+    "mapping": "optional adapter + application raise_for_status + outer tenacity retry",
+    "deviations": "Airflow code is not executed. Outer limit 3, inner total 3, zero waits, faults and method matrix are authored; exception class is requests.HTTPError, not AirflowException."
+  },
+  "git_commit": "294bceedde9152fd74e52347e54fe11a4808fea4",
+  "matrix_sha256": "3778eaa73e2a82a735e90053ddf8657593e6c8cac1002365a0793ec896053b46",
+  "source_sha256": {
+    "src\\retry_budget_study\\adapters.py": "897dc9641b6f25050573beb00f4f8d16564ab0ed73b85bcd846070e4bc3ef4fe",
+    "src\\retry_budget_study\\analysis.py": "b807b8d3bdfb5aa32316623de640fc870380e4986dce9dfdbc65db3965c4c8de",
+    "src\\retry_budget_study\\analyzer.py": "a8ae2bc56688c003ce3bb47e73d497e1a51089f95b906e3a3a02faa9042283c4",
+    "src\\retry_budget_study\\doctor.py": "bcc3e1f7b76a9ec80eded7cf0d836b916d83c47ed86b6d7133642510859530c1",
+    "src\\retry_budget_study\\fault_server.py": "c6bfab793b474b7540bdcc1cedd8c160042a37c4aab5e8b48174c99d2b071256",
+    "src\\retry_budget_study\\hash_raw.py": "b0269f2b10342ce6388deb551aa391ede761e2b120268aba53a91019c375e378",
+    "src\\retry_budget_study\\ir.py": "000c0e6542ed18f8f7af2fb19abc77398ffacd51895af0c2f7290ae981e4b31d",
+    "src\\retry_budget_study\\ledger.py": "974da0d751e5eb8e6810e5f37c29e890692903c1226410654c5e024d294aa77e",
+    "src\\retry_budget_study\\quota.py": "64a4269fa08672b7d7159c9f2c69e9829f5c084705e14c47bc89ad74f70facf4",
+    "src\\retry_budget_study\\runner.py": "aaf7eb065f0874b8f2947f59836e39cf0f53b9f923b0cd3ba41cea7d36ae469d",
+    "src\\retry_budget_study\\simulator.py": "8fe9f43cbf75b0bc06b331d9d812d49be6dfa9806c87562f2d30d6bd34800dff",
+    "src\\retry_budget_study\\__init__.py": "fe020b3895dcee82ec0da4a8cf5e8e97b4f2aee29c0190c5b3e67b25a145910c",
+    "scripts\\prepare_status_boundary.py": "21b4be159db7bdb70922d080aca0672e7f060f59b05355eada171a45634bd5f3"
+  },
+  "python": "3.14.8 (main, Oct 14 2026, 01:07:21) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "versions": {
+    "requests": "2.34.2",
+    "urllib3": "2.6.3",
+    "tenacity": "9.1.4",
+    "httpx": "0.28.1",
+    "httpcore": "1.0.9",
+    "charset_normalizer": "3.5.2",
+    "idna": "3.20",
+    "certifi": "2026.2.25",
+    "anyio": "4.14.2",
+    "h11": "0.16.0"
+  },
+  "operations": 64,
+  "reservation_attempts": 256,
+  "analysis": "Compare attempts, caller success and drained effects by method/family/arm; repetitions are stability checks. No causal timing, field prevalence or superiority claim. Keep all cells including negative results."
+}

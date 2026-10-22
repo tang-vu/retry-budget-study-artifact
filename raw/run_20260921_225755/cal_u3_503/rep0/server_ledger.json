@@ -1,0 +1,68 @@
+{
+  "cal_u3_503-r0-0001": [
+    {
+      "cell_id": "cal_u3_503",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 89962.9371727,
+      "receipt_idx": 1,
+      "t_wall": 1790006276.5913165,
+      "action": {
+        "respond": 503,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "cal_u3_503",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 89962.9384388,
+      "receipt_idx": 2,
+      "t_wall": 1790006276.592587,
+      "action": {
+        "respond": 503,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "cal_u3_503",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 89962.9395649,
+      "receipt_idx": 3,
+      "t_wall": 1790006276.5937107,
+      "action": {
+        "respond": 503,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "cal_u3_503",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 89962.9406402,
+      "receipt_idx": 4,
+      "t_wall": 1790006276.5947852,
+      "action": {
+        "respond": 503,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 503
+    }
+  ]
+}

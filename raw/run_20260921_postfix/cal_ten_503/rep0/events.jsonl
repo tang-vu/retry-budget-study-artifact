@@ -1,0 +1,13 @@
+{"t_mono": 80317.622784, "t_wall": 1789996631.276922, "op_id": "cal_ten_503-r0-0003", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 80317.622793, "t_wall": 1789996631.27693, "op_id": "cal_ten_503-r0-0003", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 80317.622796, "t_wall": 1789996631.276933, "op_id": "cal_ten_503-r0-0003", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 80317.627805, "t_wall": 1789996631.281943, "op_id": "cal_ten_503-r0-0003", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 80317.64906, "t_wall": 1789996631.303197, "op_id": "cal_ten_503-r0-0003", "layer": "tenacity", "kind": "invoke", "data": {"n": 2}}
+{"t_mono": 80317.64907, "t_wall": 1789996631.303207, "op_id": "cal_ten_503-r0-0003", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 80317.649073, "t_wall": 1789996631.30321, "op_id": "cal_ten_503-r0-0003", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 80317.651193, "t_wall": 1789996631.30533, "op_id": "cal_ten_503-r0-0003", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 80317.671601, "t_wall": 1789996631.325738, "op_id": "cal_ten_503-r0-0003", "layer": "tenacity", "kind": "invoke", "data": {"n": 3}}
+{"t_mono": 80317.671605, "t_wall": 1789996631.325742, "op_id": "cal_ten_503-r0-0003", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 80317.671606, "t_wall": 1789996631.325743, "op_id": "cal_ten_503-r0-0003", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 80317.673298, "t_wall": 1789996631.327435, "op_id": "cal_ten_503-r0-0003", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 80317.673373, "t_wall": 1789996631.32751, "op_id": "cal_ten_503-r0-0003", "layer": "op", "kind": "result", "data": {"outcome": "exception", "status": 503, "attempts": 3, "wall_s": 0.050748}}

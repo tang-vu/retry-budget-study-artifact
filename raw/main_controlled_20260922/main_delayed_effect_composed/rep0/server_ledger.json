@@ -1,0 +1,112 @@
+{
+  "main_delayed_effect_composed-r0-0027": [
+    {
+      "cell_id": "main_delayed_effect_composed",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162463.8579401,
+      "receipt_idx": 1,
+      "t_wall": 1790078774.9767818,
+      "action": {
+        "delay_s": 0.18,
+        "effect": "apply",
+        "then": {
+          "respond": 200
+        }
+      },
+      "effect": "apply",
+      "responded": false
+    },
+    {
+      "cell_id": "main_delayed_effect_composed",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162463.9527242,
+      "receipt_idx": 2,
+      "t_wall": 1790078775.0715592,
+      "action": {
+        "delay_s": 0.18,
+        "effect": "apply",
+        "then": {
+          "respond": 200
+        }
+      },
+      "effect": "apply",
+      "responded": false
+    },
+    {
+      "cell_id": "main_delayed_effect_composed",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162464.0591256,
+      "receipt_idx": 3,
+      "t_wall": 1790078775.17796,
+      "action": {
+        "delay_s": 0.18,
+        "effect": "apply",
+        "then": {
+          "respond": 200
+        }
+      },
+      "effect": "apply",
+      "responded": false
+    },
+    {
+      "cell_id": "main_delayed_effect_composed",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162464.1691567,
+      "receipt_idx": 4,
+      "t_wall": 1790078775.2879953,
+      "action": {
+        "delay_s": 0.18,
+        "effect": "apply",
+        "then": {
+          "respond": 200
+        }
+      },
+      "effect": "apply",
+      "responded": false
+    },
+    {
+      "cell_id": "main_delayed_effect_composed",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162464.2623602,
+      "receipt_idx": 5,
+      "t_wall": 1790078775.3811996,
+      "action": {
+        "delay_s": 0.18,
+        "effect": "apply",
+        "then": {
+          "respond": 200
+        }
+      },
+      "effect": "apply",
+      "responded": false
+    },
+    {
+      "cell_id": "main_delayed_effect_composed",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162464.3558716,
+      "receipt_idx": 6,
+      "t_wall": 1790078775.4747105,
+      "action": {
+        "delay_s": 0.18,
+        "effect": "apply",
+        "then": {
+          "respond": 200
+        }
+      },
+      "effect": "apply",
+      "responded": false
+    }
+  ]
+}

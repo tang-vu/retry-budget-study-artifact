@@ -1,0 +1,42 @@
+{
+  "ev_bud_ra-r1-0032": [
+    {
+      "cell_id": "ev_bud_ra",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 80348.4756717,
+      "receipt_idx": 1,
+      "t_wall": 1789996662.1298175,
+      "action": {
+        "respond": 503,
+        "effect": "apply",
+        "headers": {
+          "Retry-After": "1"
+        }
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "ev_bud_ra",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 80349.477573,
+      "receipt_idx": 2,
+      "t_wall": 1789996663.1317198,
+      "action": {
+        "respond": 503,
+        "effect": "apply",
+        "headers": {
+          "Retry-After": "1"
+        }
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 503
+    }
+  ]
+}

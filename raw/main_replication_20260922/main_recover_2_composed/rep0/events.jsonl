@@ -1,0 +1,10 @@
+{"t_mono": 162625.372237, "t_wall": 1790078936.491068, "op_id": "main_recover_2_composed-r0-0003", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 162625.372243, "t_wall": 1790078936.491072, "op_id": "main_recover_2_composed-r0-0003", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 162625.372244, "t_wall": 1790078936.491074, "op_id": "main_recover_2_composed-r0-0003", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 162625.372897, "t_wall": 1790078936.491727, "op_id": "main_recover_2_composed-r0-0003", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162625.37488, "t_wall": 1790078936.49371, "op_id": "main_recover_2_composed-r0-0003", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 162625.375007, "t_wall": 1790078936.493837, "op_id": "main_recover_2_composed-r0-0003", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162625.375833, "t_wall": 1790078936.494663, "op_id": "main_recover_2_composed-r0-0003", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 162625.375979, "t_wall": 1790078936.494809, "op_id": "main_recover_2_composed-r0-0003", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162625.37689, "t_wall": 1790078936.49572, "op_id": "main_recover_2_composed-r0-0003", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 162625.377035, "t_wall": 1790078936.495864, "op_id": "main_recover_2_composed-r0-0003", "layer": "op", "kind": "result", "data": {"outcome": "success", "status": 200, "attempts": 3, "wall_s": 0.004892}}

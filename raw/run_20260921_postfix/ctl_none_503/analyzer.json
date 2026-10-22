@@ -1,0 +1,19 @@
+{
+  "policy": "p_none",
+  "outcome": "status",
+  "verdict": "GUARANTEED",
+  "attempts_min": 1,
+  "attempts_max": 1,
+  "elapsed_min_s": 0.0005,
+  "elapsed_max_s": 0.02,
+  "effects_max": 1,
+  "warnings": [],
+  "assumptions": [
+    "A1 per-invocation layer state (no cross-op sharing)",
+    "A2 persistent outcome per cell (heterogeneous mixes via simulator)",
+    "A3 loopback attempt-cost model (floors/ceilings documented)",
+    "A4 Windows timer granularity ~15.6ms adds timing uncertainty"
+  ],
+  "repairs": [],
+  "attempts_max_mixed_counters": null
+}

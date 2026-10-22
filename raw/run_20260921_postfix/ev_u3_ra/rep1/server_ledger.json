@@ -1,0 +1,58 @@
+{
+  "ev_u3_ra-r1-0028": [
+    {
+      "cell_id": "ev_u3_ra",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 80343.3282003,
+      "receipt_idx": 1,
+      "t_wall": 1789996656.9823456,
+      "action": {
+        "respond": 503,
+        "effect": "apply",
+        "headers": {
+          "Retry-After": "1"
+        }
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "ev_u3_ra",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 80344.3304967,
+      "receipt_idx": 2,
+      "t_wall": 1789996657.9846447,
+      "action": {
+        "respond": 503,
+        "effect": "apply",
+        "headers": {
+          "Retry-After": "1"
+        }
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "ev_u3_ra",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 80345.3322783,
+      "receipt_idx": 3,
+      "t_wall": 1789996658.9864216,
+      "action": {
+        "respond": 200,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 200
+    }
+  ]
+}

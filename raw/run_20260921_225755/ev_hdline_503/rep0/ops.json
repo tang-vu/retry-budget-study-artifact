@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "ev_hdline_503-r0-0015",
+      "outcome": "budget_exhausted",
+      "status": null,
+      "transport_attempts": 10,
+      "wrapper_invocations": 6,
+      "wall_s": 0.06740590000117663,
+      "error": "request budget exhausted: attempts"
+    },
+    "op_id": "ev_hdline_503-r0-0015"
+  }
+]

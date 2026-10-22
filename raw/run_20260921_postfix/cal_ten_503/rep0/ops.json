@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "cal_ten_503-r0-0003",
+      "outcome": "exception",
+      "status": 503,
+      "transport_attempts": 3,
+      "wrapper_invocations": 6,
+      "wall_s": 0.05074760000570677,
+      "error": "RetryError(result)"
+    },
+    "op_id": "cal_ten_503-r0-0003"
+  }
+]

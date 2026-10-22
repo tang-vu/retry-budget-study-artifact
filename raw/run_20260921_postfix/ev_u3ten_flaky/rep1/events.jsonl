@@ -1,0 +1,7 @@
+{"t_mono": 80386.823107, "t_wall": 1789996700.477245, "op_id": "ev_u3ten_flaky-r1-0050", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 80386.823112, "t_wall": 1789996700.477248, "op_id": "ev_u3ten_flaky-r1-0050", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 80386.823113, "t_wall": 1789996700.47725, "op_id": "ev_u3ten_flaky-r1-0050", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 80386.836572, "t_wall": 1789996700.49071, "op_id": "ev_u3ten_flaky-r1-0050", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 80386.837859, "t_wall": 1789996700.491996, "op_id": "ev_u3ten_flaky-r1-0050", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 80386.838885, "t_wall": 1789996700.493022, "op_id": "ev_u3ten_flaky-r1-0050", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 80386.838956, "t_wall": 1789996700.493093, "op_id": "ev_u3ten_flaky-r1-0050", "layer": "op", "kind": "result", "data": {"outcome": "success", "status": 200, "attempts": 3, "wall_s": 0.015865}}

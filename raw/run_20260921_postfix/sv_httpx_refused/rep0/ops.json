@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "sv_httpx_refused-r0-0047",
+      "outcome": "exception",
+      "status": null,
+      "transport_attempts": 3,
+      "wrapper_invocations": 1,
+      "wall_s": 2.02437590000045,
+      "error": "ConnectTimeout"
+    },
+    "op_id": "sv_httpx_refused-r0-0047"
+  }
+]

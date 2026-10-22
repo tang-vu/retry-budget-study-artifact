@@ -1,0 +1,120 @@
+{
+  "matrix_version": "main-1.0",
+  "defaults": {
+    "connect_timeout_s": 0.15,
+    "read_timeout_s": 0.08,
+    "reps": 1,
+    "contract": {
+      "max_transport_attempts": 4,
+      "max_effects": 1,
+      "max_wall_s": 4
+    }
+  },
+  "policies": {
+    "single": {
+      "layers": [
+        {
+          "kind": "urllib3",
+          "total": 2,
+          "status_forcelist": [
+            503
+          ],
+          "backoff_factor": 0,
+          "allowed_methods": null
+        }
+      ]
+    },
+    "composed": {
+      "layers": [
+        {
+          "kind": "tenacity",
+          "stop_attempts": 2,
+          "wait_kind": "fixed",
+          "wait_s": 0.015,
+          "on_exception": true
+        },
+        {
+          "kind": "urllib3",
+          "total": 2,
+          "status_forcelist": [
+            503
+          ],
+          "backoff_factor": 0,
+          "allowed_methods": null
+        }
+      ]
+    },
+    "shared": {
+      "layers": [
+        {
+          "kind": "budget",
+          "max_attempts": 4,
+          "deadline_s": 1.5
+        },
+        {
+          "kind": "tenacity",
+          "stop_attempts": 2,
+          "wait_kind": "fixed",
+          "wait_s": 0.015,
+          "on_exception": true
+        },
+        {
+          "kind": "urllib3",
+          "total": 2,
+          "status_forcelist": [
+            503
+          ],
+          "backoff_factor": 0,
+          "allowed_methods": null
+        }
+      ]
+    }
+  },
+  "failures": {
+    "development_recover_3": {
+      "scenario": {
+        "plan": [
+          {
+            "respond": 503
+          },
+          {
+            "respond": 503
+          },
+          {
+            "respond": 503
+          }
+        ],
+        "default": {
+          "respond": 200,
+          "effect": "apply"
+        }
+      },
+      "outcomes": [
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "success"
+        }
+      ]
+    }
+  },
+  "cells": [
+    {
+      "id": "development_recover_3",
+      "split": "calibration",
+      "policy": "composed",
+      "failure": "development_recover_3",
+      "method": "POST"
+    }
+  ]
+}

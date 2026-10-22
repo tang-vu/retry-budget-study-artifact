@@ -1,0 +1,13 @@
+{"t_mono": 185173.772162, "t_wall": 1792645413.96588, "op_id": "boundary_get_recover_4_unchecked-r0-0017", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 185173.772167, "t_wall": 1792645413.965884, "op_id": "boundary_get_recover_4_unchecked-r0-0017", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185173.772169, "t_wall": 1792645413.965886, "op_id": "boundary_get_recover_4_unchecked-r0-0017", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185173.772834, "t_wall": 1792645413.966552, "op_id": "boundary_get_recover_4_unchecked-r0-0017", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185173.793069, "t_wall": 1792645413.986787, "op_id": "boundary_get_recover_4_unchecked-r0-0017", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185173.793196, "t_wall": 1792645413.986914, "op_id": "boundary_get_recover_4_unchecked-r0-0017", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185173.794355, "t_wall": 1792645413.988073, "op_id": "boundary_get_recover_4_unchecked-r0-0017", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185173.79447, "t_wall": 1792645413.988187, "op_id": "boundary_get_recover_4_unchecked-r0-0017", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185173.795545, "t_wall": 1792645413.989263, "op_id": "boundary_get_recover_4_unchecked-r0-0017", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185173.795649, "t_wall": 1792645413.989366, "op_id": "boundary_get_recover_4_unchecked-r0-0017", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185173.796908, "t_wall": 1792645413.990626, "op_id": "boundary_get_recover_4_unchecked-r0-0017", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": 503}}
+{"t_mono": 185173.797559, "t_wall": 1792645413.991277, "op_id": "boundary_get_recover_4_unchecked-r0-0017", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185173.797703, "t_wall": 1792645413.991421, "op_id": "boundary_get_recover_4_unchecked-r0-0017", "layer": "op", "kind": "result", "data": {"outcome": "http_error", "status": 503, "attempts": 4, "wall_s": 0.025539}}

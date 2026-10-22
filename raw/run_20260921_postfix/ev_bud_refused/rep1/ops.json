@@ -1,0 +1,15 @@
+[
+  {
+    "op": {
+      "op_id": "ev_bud_refused-r1-0046",
+      "outcome": "budget_exhausted",
+      "status": null,
+      "transport_attempts": 5,
+      "wrapper_invocations": 4,
+      "wall_s": 2.5709904999966966,
+      "error": "request budget exhausted: attempts"
+    },
+    "op_id": "ev_bud_refused-r1-0046",
+    "_events": "{\"t_mono\": 80378.4089, \"t_wall\": 1789996692.063038, \"op_id\": \"ev_bud_refused-r1-0046\", \"layer\": \"tenacity\", \"kind\": \"invoke\", \"data\": {\"n\": 1}}\n{\"t_mono\": 80378.408913, \"t_wall\": 1789996692.06305, \"op_id\": \"ev_bud_refused-r1-0046\", \"layer\": \"urllib3\", \"kind\": \"invoke\", \"data\": {}}\n{\"t_mono\": 80378.408919, \"t_wall\": 1789996692.063056, \"op_id\": \"ev_bud_refused-r1-0046\", \"layer\": \"urllib3\", \"kind\": \"attempt_start\", \"data\": {}}\n{\"t_mono\": 80378.919908, \"t_wall\": 1789996692.574046, \"op_id\": \"ev_bud_refused-r1-0046\", \"layer\": \"urllib3\", \"kind\": \"retry_scheduled\", \"data\": {}}\n{\"t_mono\": 80379.423177, \"t_wall\": 1789996693.077315, \"op_id\": \"ev_bud_refused-r1-0046\", \"layer\": \"urllib3\", \"kind\": \"retry_scheduled\", \"data\": {}}\n{\"t_mono\": 80379.936504, \"t_wall\": 1789996693.590642, \"op_id\": \"ev_bud_refused-r1-0046\", \"layer\": \"urllib3\", \"kind\": \"retry_scheduled\", \"data\": {}}\n{\"t_mono\": 80380.450608, \"t_wall\": 1789996694.104745, \"op_id\": \"ev_bud_refused-r1-0046\", \"layer\": \"urllib3\", \"kind\": \"retry_exhausted\", \"data\": {\"error\": \"MaxRetryError\", \"status\": null}}\n{\"t_mono\": 80380.450676, \"t_wall\": 1789996694.104813, \"op_id\": \"ev_bud_refused-r1-0046\", \"layer\": \"urllib3\", \"kind\": \"attempt_end\", \"data\": {}}\n{\"t_mono\": 80380.471694, \"t_wall\": 1789996694.125832, \"op_id\": \"ev_bud_refused-r1-0046\", \"layer\": \"tenacity\", \"kind\": \"invoke\", \"data\": {\"n\": 2}}\n{\"t_mono\": 80380.471705, \"t_wall\": 1789996694.125842, \"op_id\": \"ev_bud_refused-r1-0046\", \"layer\": \"urllib3\", \"kind\": \"invoke\", \"data\": {}}\n{\"t_mono\": 80380.471712, \"t_wall\": 1789996694.125849, \"op_id\": \"ev_bud_refused-r1-0046\", \"layer\": \"urllib3\", \"kind\": \"attempt_start\", \"data\": {}}\n{\"t_mono\": 80380.979673, \"t_wall\": 1789996694.633811, \"op_id\": \"ev_bud_refused-r1-0046\", \"layer\": \"urllib3\", \"kind\": \"budget_refusal\", \"data\": {\"reason\": \"attempts\"}}\n{\"t_mono\": 80380.979741, \"t_wall\": 1789996694.633878, \"op_id\": \"ev_bud_refused-r1-0046\", \"layer\": \"urllib3\", \"kind\": \"attempt_end\", \"data\": {}}\n{\"t_mono\": 80380.979847, \"t_wall\": 1789996694.633984, \"op_id\": \"ev_bud_refused-r1-0046\", \"layer\": \"op\", \"kind\": \"result\", \"data\": {\"outcome\": \"budget_exhausted\", \"status\": null, \"attempts\": 5, \"wall_s\": 2.57099}}"
+  }
+]

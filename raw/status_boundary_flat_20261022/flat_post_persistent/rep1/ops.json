@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "flat_post_persistent-r1-0010",
+      "outcome": "exception",
+      "status": null,
+      "transport_attempts": 4,
+      "wrapper_invocations": 8,
+      "wall_s": 0.03114790000836365,
+      "error": "HTTPError"
+    },
+    "op_id": "flat_post_persistent-r1-0010"
+  }
+]

@@ -1,0 +1,176 @@
+% References for retry-budget-study (exploratory pilot). Entries for docs/
+% reports cite the consulted URL + access date (2026-09-21).
+
+@misc{sre_overload_2016,
+  title        = {Handling Overload},
+  author       = {Forero Cuervo, Alejandro},
+  howpublished = {\url{https://sre.google/sre-book/handling-overload/}},
+  note         = {Google SRE Book, chapter 21. Accessed 2026-09-21},
+  year         = {2016}
+}
+
+@misc{urllib3_retry_docs,
+  title        = {urllib3.util - Retry and Timeout reference},
+  author       = {{urllib3 developers}},
+  howpublished = {\url{https://urllib3.readthedocs.io/en/2.6.3/reference/urllib3.util.html}},
+  note         = {Version 2.6.3 consulted. Accessed 2026-09-21},
+  year         = {2026}
+}
+
+@misc{tenacity_docs,
+  title        = {Tenacity: general-purpose retrying library documentation},
+  author       = {{Tenacity contributors}},
+  howpublished = {\url{https://tenacity.readthedocs.io/en/latest/}},
+  note         = {Version 9.1.4 consulted. Accessed 2026-09-21},
+  year         = {2026}
+}
+
+@misc{raf_2026,
+  author = {Mehan, Rishabh and Saluja, Jasmit Kaur},
+  title        = {Retry Amplification in Distributed Systems: A Systematic
+                  Analysis of Retry Policies and Their Role in Cascading Failures},
+  howpublished = {\url{https://arxiv.org/html/2608.25403}},
+  doi          = {10.48550/arXiv.2608.25403},
+  note         = {Preprint, arXiv:2608.25403v1. Accessed 2026-10-22},
+  year         = {2026}
+}
+
+@misc{retryguard_2025,
+  author = {Tavori, Jhonatan and Bremler-Barr, Anat and Levy, Hanoch and Lavi, Ofek},
+  title        = {{RetryGuard}: Preventing Self-Inflicted and Attack-Driven Retry Storms in Cloud Applications},
+  howpublished = {\url{https://arxiv.org/abs/2511.23278v2}},
+  doi          = {10.48550/arXiv.2511.23278},
+  note         = {Preprint, version 2 revised in 2026; first posted 2025. Accessed 2026-10-22},
+  year         = {2025}
+}
+
+@inproceedings{ic2e23_cb_retry,
+  author = {Saleh Sedghpour, Mohammad Reza and Garlan, David and Schmerl, Bradley and Klein, Cristian and Tordsson, Johan},
+  title        = {Breaking the Vicious Circle: Self-Adaptive Microservice
+                  Circuit Breaking and Retry},
+  booktitle    = {IEEE International Conference on Cloud Engineering (IC2E)},
+  year         = {2023},
+  doi          = {10.1109/ic2e59103.2023.00012}
+}
+
+@inproceedings{wasabi_sosp24,
+  title        = {If At First You Don't Succeed, Try, Try, Again...? Insights and LLM-informed Tooling for Detecting Retry Bugs in Software Systems},
+  author       = {Stoica, Bogdan Alexandru and Sethi, Utsav and Su, Yiming and Zhou, Cyrus and Lu, Shan and Mace, Jonathan and Musuvathi, Madanlal and Nath, Suman},
+  doi          = {10.1145/3694715.3695971},
+  booktitle    = {ACM SIGOPS Symposium on Operating Systems Principles (SOSP)},
+  year         = {2024},
+  note         = {\url{https://bastoica.github.io/files/papers/2024_sosp_wasabi.pdf}}
+}
+
+@misc{grpc_deadlines,
+  title        = {Deadlines - {gRPC} documentation},
+  author       = {{gRPC authors}},
+  howpublished = {\url{https://grpc.io/docs/guides/deadlines/}},
+  note         = {Accessed 2026-09-21},
+  year         = {2026}
+}
+
+@misc{grpc_retry,
+  title        = {Retry - {gRPC} documentation},
+  author       = {{gRPC authors}},
+  howpublished = {\url{https://grpc.io/docs/guides/retry/}},
+  note         = {Accessed 2026-09-21},
+  year         = {2026}
+}
+
+@misc{envoy_retry_budget,
+  title        = {Envoy {CircuitBreakers.Thresholds.RetryBudget}},
+  author       = {{Envoy contributors}},
+  howpublished = {\url{https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/cluster/v3/circuit_breaker.proto.html}},
+  note         = {Accessed 2026-09-21},
+  year         = {2026}
+}
+
+@misc{finagle_retry_budget,
+  title        = {finagle-core {RetryBudget.scala}},
+  author       = {{Twitter Finagle contributors}},
+  howpublished = {\url{https://github.com/twitter/finagle/blob/develop/finagle-core/src/main/scala/com/twitter/finagle/service/RetryBudget.scala}},
+  note         = {Accessed 2026-09-21},
+  year         = {2026}
+}
+
+@inproceedings{icse26_nfi,
+  author = {Flipse, Delano and Simsek, Hakan and Decouchant, J{\'e}r{\'e}mie and Kulahcioglu Ozkan, Burcu},
+  title        = {Automated Network-Level Fault Injection Testing of
+                  Microservice Architectures},
+  booktitle    = {IEEE/ACM International Conference on Software Engineering (ICSE)},
+  year         = {2026},
+  pages        = {3886--3897},
+  doi          = {10.1145/3744916.3773193}
+}
+
+@misc{topaz_fi_blog,
+  title        = {Testing Azure retry logic locally: why I stopped mocking
+                  429s and started injecting them},
+  author       = {{Topaz}},
+  howpublished = {\url{https://topaz.thecloudtheory.com/blog/chaos-engineering-local-azure-fault-injection/}},
+  note         = {Accessed 2026-09-21},
+  year         = {2025}
+}
+
+@inproceedings{cast_seip26,
+  author = {Chen, Zhuangbin and Deng, Zhiling and Zhang, Kaiming and Liu, Yang and Cui, Cheng and Zhong, Jinfeng and Zheng, Zibin},
+  title        = {{CAST}: Automated Resilience Testing for Production Cloud
+                  Service Systems},
+  booktitle    = {Proceedings of the IEEE/ACM 48th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)},
+  pages        = {224--235},
+  doi          = {10.1145/3786583.3786867},
+  year         = {2026}
+}
+
+@inproceedings{faultweave_fse26,
+  author       = {Zheng, Mingzhuo and Wu, Guoquan and Zhang, Jinbo and Wei, Jun and Chen, Wei and Zhu, Jiaxin and Liang, Zheheng},
+  title        = {{FaultWeave}: Bounded Resilience Testing with Failure Diagnosis Capability for Microservice Applications},
+  booktitle    = {Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering},
+  pages        = {857--867},
+  doi          = {10.1145/3803437.3805257},
+  note         = {{Industry Papers track}},
+  year         = {2026}
+}
+
+@misc{sequencefi_2026,
+  author = {Tan, Yuzhen and Wang, Jian and Li, Bing and Tan, Shaolin},
+  title        = {{SequenceFI}: Non-intrusive Temporal Fault Injection for
+                  Microservice Systems},
+  howpublished = {\url{https://arxiv.org/html/2607.20050v1}},
+  doi          = {10.48550/arXiv.2607.20050},
+  note         = {Preprint, arXiv:2607.20050v1. Accessed 2026-10-22},
+  year         = {2026}
+}
+
+@misc{netflix_chaos_2019,
+  title        = {Automating chaos experiments in production},
+  author       = {Basiri, Ali and Hochstein, Lorin and Jones, Nora and Tucker, Haley},
+  howpublished = {\url{https://ar5iv.labs.arxiv.org/html/1905.04648}},
+  note         = {arXiv:1905.04648. Accessed 2026-09-21},
+  year         = {2019}
+}
+
+@misc{mslearn_grpc_retries,
+  title        = {Transient fault handling with gRPC retries},
+  author       = {{Microsoft Learn}},
+  howpublished = {\url{https://learn.microsoft.com/en-us/aspnet/core/grpc/retries}},
+  note         = {Accessed 2026-09-21},
+  year         = {2026}
+}
+
+@misc{airflow_http_600,
+  author = {{Apache Software Foundation}},
+  title = {Apache Airflow {HTTP} provider 6.0.0: {HttpHook} source and {API}},
+  year = {2026},
+  howpublished = {\url{https://airflow.apache.org/docs/apache-airflow-providers-http/6.0.0/_modules/airflow/providers/http/hooks/http.html}},
+  note = {Versioned documentation. Accessed 2026-10-22. Used as static evidence for integration ordering; Airflow itself is not executed}
+}
+
+@misc{requests_api_docs,
+  author = {{Requests contributors}},
+  title = {Requests {API} reference: {Response.raise_for_status} and {HTTPAdapter}},
+  year = {2026},
+  howpublished = {\url{https://requests.readthedocs.io/en/latest/api/}},
+  note = {Accessed 2026-10-22. Executed subject version 2.34.2 is pinned separately}
+}

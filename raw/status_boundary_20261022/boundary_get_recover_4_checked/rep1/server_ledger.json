@@ -1,0 +1,80 @@
+{
+  "boundary_get_recover_4_checked-r1-0020": [
+    {
+      "cell_id": "boundary_get_recover_4_checked",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 185175.333133,
+      "receipt_idx": 1,
+      "t_wall": 1792645415.526856,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "boundary_get_recover_4_checked",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 185175.3341571,
+      "receipt_idx": 2,
+      "t_wall": 1792645415.5278797,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "boundary_get_recover_4_checked",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 185175.3351231,
+      "receipt_idx": 3,
+      "t_wall": 1792645415.5288455,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "boundary_get_recover_4_checked",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 185175.3360315,
+      "receipt_idx": 4,
+      "t_wall": 1792645415.5297537,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "boundary_get_recover_4_checked",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 185175.337551,
+      "receipt_idx": 5,
+      "t_wall": 1792645415.5312734,
+      "action": {
+        "respond": 200,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 200
+    }
+  ]
+}

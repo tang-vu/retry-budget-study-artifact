@@ -1,0 +1,50 @@
+{
+  "boundary_get_drop_status_single-r0-0029": [
+    {
+      "cell_id": "boundary_get_drop_status_single",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 185187.6243766,
+      "receipt_idx": 1,
+      "t_wall": 1792645427.8180993,
+      "action": {
+        "drop": true,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": false
+    },
+    {
+      "cell_id": "boundary_get_drop_status_single",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 185187.6259322,
+      "receipt_idx": 2,
+      "t_wall": 1792645427.8196545,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "boundary_get_drop_status_single",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 185187.6269317,
+      "receipt_idx": 3,
+      "t_wall": 1792645427.8206542,
+      "action": {
+        "respond": 200,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 200
+    }
+  ]
+}

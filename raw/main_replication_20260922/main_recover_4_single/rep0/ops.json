@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "main_recover_4_single-r0-0007",
+      "outcome": "exception",
+      "status": null,
+      "transport_attempts": 3,
+      "wrapper_invocations": 1,
+      "wall_s": 0.006388300011167303,
+      "error": "RetryError"
+    },
+    "op_id": "main_recover_4_single-r0-0007"
+  }
+]

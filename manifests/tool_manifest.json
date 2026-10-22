@@ -1,0 +1,23 @@
+{
+  "generated": "2026-09-21T07:17:47Z",
+  "python": "3.14.4",
+  "deps": {
+    "requests": "2.34.2",
+    "urllib3": "2.6.3",
+    "tenacity": "9.1.4",
+    "httpx": "0.28.1",
+    "httpcore": "1.0.9"
+  },
+  "resolved_transitive": {
+    "h11": "0.16.0",
+    "anyio": "4.14.2",
+    "certifi": "2026.2.25",
+    "idna": "3.20"
+  },
+  "dep_pin_policy": "exact pins; all >7 days since release at pin time; httpcore pinned explicitly since 2026-09-21 because it carries the retried-attempt semantics under study",
+  "sha256": {
+    "requirements.txt": "6a70270b6c16e21ed2e1c1db52a816ed00c22d1c9d48e828e89f1d9016521eb0",
+    "config/pilot_matrix.json": "183d8ff912c797e55a733a62920df69d59ad35a5768875e8ebef88e0ae195115",
+    "config/permissions.yaml": "4bca374311d3f0e3960360e904eda7b836d8a60fdb0ca86878aed35732b2c7c7"
+  }
+}

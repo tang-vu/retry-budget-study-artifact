@@ -1,0 +1,7 @@
+{
+  "cases": 1536,
+  "within_bound": 1536,
+  "mismatches": [],
+  "transport_attempts": 0,
+  "limitations": "Real library state transitions, with authored orchestration and persistent outcomes. No network, deadlines, waits, effects, transient sequences or field-sample validation."
+}

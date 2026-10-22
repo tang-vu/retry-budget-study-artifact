@@ -1,0 +1,38 @@
+{
+  "main_retry_after_composed-r1-0016": [
+    {
+      "cell_id": "main_retry_after_composed",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162420.7309229,
+      "receipt_idx": 1,
+      "t_wall": 1790078731.8497653,
+      "action": {
+        "respond": 503,
+        "headers": {
+          "Retry-After": "1"
+        }
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "main_retry_after_composed",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162421.7327425,
+      "receipt_idx": 2,
+      "t_wall": 1790078732.8515825,
+      "action": {
+        "respond": 200,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "main_recover_2_composed-r0-0003": [
+    {
+      "cell_id": "main_recover_2_composed",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162394.2678465,
+      "receipt_idx": 1,
+      "t_wall": 1790078705.38669,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "main_recover_2_composed",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162394.2693327,
+      "receipt_idx": 2,
+      "t_wall": 1790078705.3881733,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "main_recover_2_composed",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162394.2704373,
+      "receipt_idx": 3,
+      "t_wall": 1790078705.3892717,
+      "action": {
+        "respond": 200,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "main_delayed_effect_shared-r1-0030",
+      "outcome": "budget_exhausted",
+      "status": null,
+      "transport_attempts": 4,
+      "wrapper_invocations": 4,
+      "wall_s": 0.3813248999940697,
+      "error": "request budget exhausted: attempts"
+    },
+    "op_id": "main_delayed_effect_shared-r1-0030"
+  }
+]

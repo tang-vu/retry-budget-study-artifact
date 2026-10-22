@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "main_connect_single-r0-0031",
+      "outcome": "exception",
+      "status": null,
+      "transport_attempts": 3,
+      "wrapper_invocations": 1,
+      "wall_s": 0.4727868000045419,
+      "error": "ConnectTimeout"
+    },
+    "op_id": "main_connect_single-r0-0031"
+  }
+]

@@ -1,0 +1,14 @@
+{"t_mono": 90090.815412, "t_wall": 1790006404.46955, "op_id": "ev_bud_drop-r0-0039", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 90090.815419, "t_wall": 1790006404.469556, "op_id": "ev_bud_drop-r0-0039", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 90090.815424, "t_wall": 1790006404.469561, "op_id": "ev_bud_drop-r0-0039", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 90090.818362, "t_wall": 1790006404.472499, "op_id": "ev_bud_drop-r0-0039", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 90090.840941, "t_wall": 1790006404.495078, "op_id": "ev_bud_drop-r0-0039", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 90090.842836, "t_wall": 1790006404.496974, "op_id": "ev_bud_drop-r0-0039", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 90090.844175, "t_wall": 1790006404.498312, "op_id": "ev_bud_drop-r0-0039", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": null}}
+{"t_mono": 90090.844206, "t_wall": 1790006404.498343, "op_id": "ev_bud_drop-r0-0039", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 90090.864472, "t_wall": 1790006404.51861, "op_id": "ev_bud_drop-r0-0039", "layer": "tenacity", "kind": "invoke", "data": {"n": 2}}
+{"t_mono": 90090.864482, "t_wall": 1790006404.518619, "op_id": "ev_bud_drop-r0-0039", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 90090.864486, "t_wall": 1790006404.518623, "op_id": "ev_bud_drop-r0-0039", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 90090.86695, "t_wall": 1790006404.521087, "op_id": "ev_bud_drop-r0-0039", "layer": "urllib3", "kind": "budget_refusal", "data": {"reason": "attempts"}}
+{"t_mono": 90090.866975, "t_wall": 1790006404.521112, "op_id": "ev_bud_drop-r0-0039", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 90090.867041, "t_wall": 1790006404.521178, "op_id": "ev_bud_drop-r0-0039", "layer": "op", "kind": "result", "data": {"outcome": "budget_exhausted", "status": null, "attempts": 5, "wall_s": 0.051656}}

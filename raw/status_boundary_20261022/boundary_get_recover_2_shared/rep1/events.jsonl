@@ -1,0 +1,12 @@
+{"t_mono": 185173.251442, "t_wall": 1792645413.44516, "op_id": "boundary_get_recover_2_shared-r1-0016", "layer": "budget", "kind": "budget_created", "data": {"deadline_mono": null}}
+{"t_mono": 185173.251695, "t_wall": 1792645413.445413, "op_id": "boundary_get_recover_2_shared-r1-0016", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 185173.251699, "t_wall": 1792645413.445416, "op_id": "boundary_get_recover_2_shared-r1-0016", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185173.251702, "t_wall": 1792645413.44542, "op_id": "boundary_get_recover_2_shared-r1-0016", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185173.252377, "t_wall": 1792645413.446095, "op_id": "boundary_get_recover_2_shared-r1-0016", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185173.27808, "t_wall": 1792645413.471798, "op_id": "boundary_get_recover_2_shared-r1-0016", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185173.278293, "t_wall": 1792645413.472011, "op_id": "boundary_get_recover_2_shared-r1-0016", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185173.279548, "t_wall": 1792645413.473266, "op_id": "boundary_get_recover_2_shared-r1-0016", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185173.279685, "t_wall": 1792645413.473403, "op_id": "boundary_get_recover_2_shared-r1-0016", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185173.280876, "t_wall": 1792645413.474594, "op_id": "boundary_get_recover_2_shared-r1-0016", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185173.28088, "t_wall": 1792645413.474597, "op_id": "boundary_get_recover_2_shared-r1-0016", "layer": "status_check", "kind": "response_checked", "data": {"status": 200}}
+{"t_mono": 185173.280947, "t_wall": 1792645413.474664, "op_id": "boundary_get_recover_2_shared-r1-0016", "layer": "op", "kind": "result", "data": {"outcome": "success", "status": 200, "attempts": 3, "wall_s": 0.029266}}

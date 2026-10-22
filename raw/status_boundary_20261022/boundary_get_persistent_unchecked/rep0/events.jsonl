@@ -1,0 +1,13 @@
+{"t_mono": 185162.38344, "t_wall": 1792645402.577158, "op_id": "boundary_get_persistent_unchecked-r0-0001", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 185162.383453, "t_wall": 1792645402.57717, "op_id": "boundary_get_persistent_unchecked-r0-0001", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185162.383457, "t_wall": 1792645402.577174, "op_id": "boundary_get_persistent_unchecked-r0-0001", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185162.384561, "t_wall": 1792645402.578279, "op_id": "boundary_get_persistent_unchecked-r0-0001", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185162.387363, "t_wall": 1792645402.581081, "op_id": "boundary_get_persistent_unchecked-r0-0001", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185162.387523, "t_wall": 1792645402.58124, "op_id": "boundary_get_persistent_unchecked-r0-0001", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185162.38864, "t_wall": 1792645402.582358, "op_id": "boundary_get_persistent_unchecked-r0-0001", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185162.388749, "t_wall": 1792645402.582467, "op_id": "boundary_get_persistent_unchecked-r0-0001", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185162.389644, "t_wall": 1792645402.583362, "op_id": "boundary_get_persistent_unchecked-r0-0001", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185162.389751, "t_wall": 1792645402.583469, "op_id": "boundary_get_persistent_unchecked-r0-0001", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185162.390516, "t_wall": 1792645402.584234, "op_id": "boundary_get_persistent_unchecked-r0-0001", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": 503}}
+{"t_mono": 185162.390943, "t_wall": 1792645402.584661, "op_id": "boundary_get_persistent_unchecked-r0-0001", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185162.391055, "t_wall": 1792645402.584773, "op_id": "boundary_get_persistent_unchecked-r0-0001", "layer": "op", "kind": "result", "data": {"outcome": "http_error", "status": 503, "attempts": 4, "wall_s": 0.007712}}

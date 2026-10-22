@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "flat_get_recover_4-r1-0006",
+      "outcome": "exception",
+      "status": null,
+      "transport_attempts": 4,
+      "wrapper_invocations": 8,
+      "wall_s": 0.029152900009648874,
+      "error": "HTTPError"
+    },
+    "op_id": "flat_get_recover_4-r1-0006"
+  }
+]

@@ -1,0 +1,451 @@
+{
+  "matrix_version": "main-1.0",
+  "defaults": {
+    "connect_timeout_s": 0.15,
+    "read_timeout_s": 0.08,
+    "reps": 2,
+    "contract": {
+      "max_transport_attempts": 4,
+      "max_effects": 1,
+      "max_wall_s": 4
+    }
+  },
+  "policies": {
+    "single": {
+      "layers": [
+        {
+          "kind": "urllib3",
+          "total": 2,
+          "status_forcelist": [
+            503
+          ],
+          "backoff_factor": 0,
+          "allowed_methods": null
+        }
+      ]
+    },
+    "composed": {
+      "layers": [
+        {
+          "kind": "tenacity",
+          "stop_attempts": 2,
+          "wait_kind": "fixed",
+          "wait_s": 0.015,
+          "on_exception": true
+        },
+        {
+          "kind": "urllib3",
+          "total": 2,
+          "status_forcelist": [
+            503
+          ],
+          "backoff_factor": 0,
+          "allowed_methods": null
+        }
+      ]
+    },
+    "shared": {
+      "layers": [
+        {
+          "kind": "budget",
+          "max_attempts": 4,
+          "deadline_s": 1.5
+        },
+        {
+          "kind": "tenacity",
+          "stop_attempts": 2,
+          "wait_kind": "fixed",
+          "wait_s": 0.015,
+          "on_exception": true
+        },
+        {
+          "kind": "urllib3",
+          "total": 2,
+          "status_forcelist": [
+            503
+          ],
+          "backoff_factor": 0,
+          "allowed_methods": null
+        }
+      ]
+    }
+  },
+  "failures": {
+    "recover_2": {
+      "scenario": {
+        "plan": [
+          {
+            "respond": 503
+          },
+          {
+            "respond": 503
+          }
+        ],
+        "default": {
+          "respond": 200,
+          "effect": "apply"
+        }
+      },
+      "outcomes": [
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "success"
+        }
+      ]
+    },
+    "recover_4": {
+      "scenario": {
+        "plan": [
+          {
+            "respond": 503
+          },
+          {
+            "respond": 503
+          },
+          {
+            "respond": 503
+          },
+          {
+            "respond": 503
+          }
+        ],
+        "default": {
+          "respond": 200,
+          "effect": "apply"
+        }
+      },
+      "outcomes": [
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "success"
+        }
+      ]
+    },
+    "retry_after": {
+      "scenario": {
+        "plan": [
+          {
+            "respond": 503,
+            "headers": {
+              "Retry-After": "1"
+            }
+          }
+        ],
+        "default": {
+          "respond": 200,
+          "effect": "apply"
+        }
+      },
+      "outcomes": [
+        {
+          "kind": "status",
+          "status": 503,
+          "retry_after_s": 1
+        },
+        {
+          "kind": "success"
+        }
+      ]
+    },
+    "drop_status": {
+      "scenario": {
+        "plan": [
+          {
+            "drop": true,
+            "effect": "apply"
+          },
+          {
+            "respond": 503
+          }
+        ],
+        "default": {
+          "respond": 200,
+          "effect": "apply"
+        }
+      },
+      "outcomes": [
+        {
+          "kind": "read_err"
+        },
+        {
+          "kind": "status",
+          "status": 503
+        },
+        {
+          "kind": "success"
+        }
+      ]
+    },
+    "delayed_effect": {
+      "scenario": {
+        "default": {
+          "delay_s": 0.18,
+          "effect": "apply",
+          "then": {
+            "respond": 200
+          }
+        }
+      },
+      "outcomes": [
+        {
+          "kind": "read_err",
+          "delay_s": 0.18
+        }
+      ]
+    },
+    "connect": {
+      "scenario_type": "dead_port",
+      "outcomes": [
+        {
+          "kind": "conn_err"
+        }
+      ]
+    }
+  },
+  "cells": [
+    {
+      "id": "main_recover_2_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "recover_2",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      }
+    },
+    {
+      "id": "main_recover_2_composed",
+      "split": "eval",
+      "policy": "composed",
+      "failure": "recover_2",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      }
+    },
+    {
+      "id": "main_recover_2_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "recover_2",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4,
+        "deadline_s": 1.5
+      }
+    },
+    {
+      "id": "main_recover_4_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "recover_4",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      }
+    },
+    {
+      "id": "main_recover_4_composed",
+      "split": "eval",
+      "policy": "composed",
+      "failure": "recover_4",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      }
+    },
+    {
+      "id": "main_recover_4_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "recover_4",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4,
+        "deadline_s": 1.5
+      }
+    },
+    {
+      "id": "main_retry_after_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "retry_after",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      }
+    },
+    {
+      "id": "main_retry_after_composed",
+      "split": "eval",
+      "policy": "composed",
+      "failure": "retry_after",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      }
+    },
+    {
+      "id": "main_retry_after_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "retry_after",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4,
+        "deadline_s": 1.5
+      }
+    },
+    {
+      "id": "main_drop_status_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "drop_status",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      }
+    },
+    {
+      "id": "main_drop_status_composed",
+      "split": "eval",
+      "policy": "composed",
+      "failure": "drop_status",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      }
+    },
+    {
+      "id": "main_drop_status_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "drop_status",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4,
+        "deadline_s": 1.5
+      }
+    },
+    {
+      "id": "main_delayed_effect_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "delayed_effect",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      }
+    },
+    {
+      "id": "main_delayed_effect_composed",
+      "split": "eval",
+      "policy": "composed",
+      "failure": "delayed_effect",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      }
+    },
+    {
+      "id": "main_delayed_effect_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "delayed_effect",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4,
+        "deadline_s": 1.5
+      }
+    },
+    {
+      "id": "main_connect_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "connect",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      }
+    },
+    {
+      "id": "main_connect_composed",
+      "split": "eval",
+      "policy": "composed",
+      "failure": "connect",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4
+      }
+    },
+    {
+      "id": "main_connect_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "connect",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4,
+        "max_effects": 1,
+        "max_wall_s": 4,
+        "deadline_s": 1.5
+      }
+    }
+  ]
+}

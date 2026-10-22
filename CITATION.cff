@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this replication artifact when using its code or data."
+type: software
+title: "When Retry Limits Compose: Replication Artifact"
+version: "1.0.0"
+date-released: 2026-10-22
+authors:
+  - family-names: "Vu"
+    given-names: "Tang Minh"
+    orcid: "https://orcid.org/0009-0009-4685-4427"
+repository-code: "https://github.com/tang-vu/retry-budget-study-artifact"
+url: "https://github.com/tang-vu/retry-budget-study-artifact/releases/tag/v1.0.0"

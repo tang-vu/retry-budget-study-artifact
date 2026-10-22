@@ -1,0 +1,20 @@
+{
+  "ctl_none_ok-r0-0053": [
+    {
+      "cell_id": "ctl_none_ok",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 80388.4048118,
+      "receipt_idx": 1,
+      "t_wall": 1789996702.0589588,
+      "action": {
+        "respond": 200,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 200
+    }
+  ]
+}

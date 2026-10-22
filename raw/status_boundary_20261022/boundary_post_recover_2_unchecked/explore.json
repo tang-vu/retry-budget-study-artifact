@@ -1,0 +1,19 @@
+{
+  "paths": {
+    "Outcome(kind='status', status=503, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 1,
+      "elapsed_s": 0.02,
+      "effects": 1,
+      "signal": "('response', 503)"
+    },
+    "Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 1,
+      "elapsed_s": 0.02,
+      "effects": 1,
+      "signal": "success"
+    }
+  },
+  "max_attempts": 1,
+  "max_elapsed_s": 0.02,
+  "n_paths": 2
+}

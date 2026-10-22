@@ -1,0 +1,17 @@
+cell,family,policy,rep,op_id,success,attempts,physical_events,attempts_match,receipts,effects_state,effects_ledger,effects_match,completion,wall_s
+flat_get_drop_status,drop_status,flat,rep0,flat_get_drop_status-r0-0007,True,3,3,True,3,2,2,True,True,0.03843710001092404
+flat_get_drop_status,drop_status,flat,rep1,flat_get_drop_status-r1-0008,True,3,3,True,3,2,2,True,True,0.0397631999803707
+flat_get_persistent,persistent,flat,rep0,flat_get_persistent-r0-0001,False,4,4,True,4,0,0,True,True,0.032246199989458546
+flat_get_persistent,persistent,flat,rep1,flat_get_persistent-r1-0002,False,4,4,True,4,0,0,True,True,0.027989900001557544
+flat_get_recover_2,recover_2,flat,rep0,flat_get_recover_2-r0-0003,True,3,3,True,3,1,1,True,True,0.017978399991989136
+flat_get_recover_2,recover_2,flat,rep1,flat_get_recover_2-r1-0004,True,3,3,True,3,1,1,True,True,0.026983699994161725
+flat_get_recover_4,recover_4,flat,rep0,flat_get_recover_4-r0-0005,False,4,4,True,4,0,0,True,True,0.031063800008269027
+flat_get_recover_4,recover_4,flat,rep1,flat_get_recover_4-r1-0006,False,4,4,True,4,0,0,True,True,0.029152900009648874
+flat_post_drop_status,drop_status,flat,rep0,flat_post_drop_status-r0-0015,True,3,3,True,3,2,2,True,True,0.020088099990971386
+flat_post_drop_status,drop_status,flat,rep1,flat_post_drop_status-r1-0016,True,3,3,True,3,2,2,True,True,0.04048890000558458
+flat_post_persistent,persistent,flat,rep0,flat_post_persistent-r0-0009,False,4,4,True,4,0,0,True,True,0.02606730000115931
+flat_post_persistent,persistent,flat,rep1,flat_post_persistent-r1-0010,False,4,4,True,4,0,0,True,True,0.03114790000836365
+flat_post_recover_2,recover_2,flat,rep0,flat_post_recover_2-r0-0011,True,3,3,True,3,1,1,True,True,0.021261500020045787
+flat_post_recover_2,recover_2,flat,rep1,flat_post_recover_2-r1-0012,True,3,3,True,3,1,1,True,True,0.0249206000007689
+flat_post_recover_4,recover_4,flat,rep0,flat_post_recover_4-r0-0013,False,4,4,True,4,0,0,True,True,0.02598580002086237
+flat_post_recover_4,recover_4,flat,rep1,flat_post_recover_4-r1-0014,False,4,4,True,4,0,0,True,True,0.009016600000904873

@@ -1,0 +1,19 @@
+{
+  "boundary_post_recover_2_unchecked-r1-0042": [
+    {
+      "cell_id": "boundary_post_recover_2_unchecked",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 185206.5700075,
+      "receipt_idx": 1,
+      "t_wall": 1792645446.7637303,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    }
+  ]
+}

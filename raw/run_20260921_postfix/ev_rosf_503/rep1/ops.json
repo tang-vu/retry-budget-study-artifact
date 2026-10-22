@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "ev_rosf_503-r1-0008",
+      "outcome": "exception",
+      "status": 503,
+      "transport_attempts": 12,
+      "wrapper_invocations": 6,
+      "wall_s": 0.06447869999101385,
+      "error": "RetryError(result)"
+    },
+    "op_id": "ev_rosf_503-r1-0008"
+  }
+]

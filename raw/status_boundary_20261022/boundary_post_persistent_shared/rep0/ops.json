@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "boundary_post_persistent_shared-r0-0039",
+      "outcome": "exception",
+      "status": null,
+      "transport_attempts": 3,
+      "wrapper_invocations": 6,
+      "wall_s": 0.022958499990636483,
+      "error": "HTTPError"
+    },
+    "op_id": "boundary_post_persistent_shared-r0-0039"
+  }
+]

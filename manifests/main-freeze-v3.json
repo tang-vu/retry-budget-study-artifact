@@ -1,0 +1,12 @@
+{
+  "frozen_at": "2026-09-22T19:08:52+0700",
+  "harness_commit": "d4b51e87b2ffa4ada32937f5b5d694a6607787a7",
+  "inputs": {
+    "config/main_matrix.json": "5113b8f1459eec4b685a41679627fa4c5ede06580268e92b41a56b3f9ad3335c",
+    "protocol/main-analysis-plan.md": "243e232ad8d3105c7af02f812cc7597291253251b69e60e9f7d396c185caa481"
+  },
+  "recorded_previous_attempts": 2386,
+  "max_new_reserved_attempts": 156,
+  "phase": "post-inspection measurement replication",
+  "prior_run": "raw/main_controlled_20260922"
+}

@@ -1,0 +1,19 @@
+{
+  "paths": {
+    "Outcome(kind='conn_err', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 1,
+      "elapsed_s": 0.55,
+      "effects": 0,
+      "signal": "exception"
+    },
+    "Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 1,
+      "elapsed_s": 0.02,
+      "effects": 1,
+      "signal": "success"
+    }
+  },
+  "max_attempts": 1,
+  "max_elapsed_s": 0.55,
+  "n_paths": 2
+}

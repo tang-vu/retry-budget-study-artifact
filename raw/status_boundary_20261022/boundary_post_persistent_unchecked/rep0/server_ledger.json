@@ -1,0 +1,19 @@
+{
+  "boundary_post_persistent_unchecked-r0-0033": [
+    {
+      "cell_id": "boundary_post_persistent_unchecked",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 185195.8104501,
+      "receipt_idx": 1,
+      "t_wall": 1792645436.0041728,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    }
+  ]
+}

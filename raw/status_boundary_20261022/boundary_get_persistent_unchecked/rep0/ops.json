@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "boundary_get_persistent_unchecked-r0-0001",
+      "outcome": "http_error",
+      "status": 503,
+      "transport_attempts": 4,
+      "wrapper_invocations": 2,
+      "wall_s": 0.0077123999944888055,
+      "error": null
+    },
+    "op_id": "boundary_get_persistent_unchecked-r0-0001"
+  }
+]

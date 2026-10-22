@@ -1,0 +1,85 @@
+{
+  "paths": {
+    "Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0)": {
+      "attempts": 12,
+      "elapsed_s": 9.279999999999998,
+      "effects": 12,
+      "signal": "exception"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 12,
+      "elapsed_s": 9.279999999999998,
+      "effects": 12,
+      "signal": "success"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 11,
+      "elapsed_s": 8.259999999999998,
+      "effects": 11,
+      "signal": "success"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 10,
+      "elapsed_s": 7.2399999999999975,
+      "effects": 10,
+      "signal": "success"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 9,
+      "elapsed_s": 6.219999999999998,
+      "effects": 9,
+      "signal": "success"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 8,
+      "elapsed_s": 6.179999999999999,
+      "effects": 8,
+      "signal": "success"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 7,
+      "elapsed_s": 5.159999999999999,
+      "effects": 7,
+      "signal": "success"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 6,
+      "elapsed_s": 4.14,
+      "effects": 6,
+      "signal": "success"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 5,
+      "elapsed_s": 3.12,
+      "effects": 5,
+      "signal": "success"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 4,
+      "elapsed_s": 3.08,
+      "effects": 4,
+      "signal": "success"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 3,
+      "elapsed_s": 2.06,
+      "effects": 3,
+      "signal": "success"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 2,
+      "elapsed_s": 1.04,
+      "effects": 2,
+      "signal": "success"
+    },
+    "Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 1,
+      "elapsed_s": 0.02,
+      "effects": 1,
+      "signal": "success"
+    }
+  },
+  "max_attempts": 12,
+  "max_elapsed_s": 9.279999999999998,
+  "n_paths": 13
+}

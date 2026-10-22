@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "flat_get_drop_status-r1-0008",
+      "outcome": "success",
+      "status": 200,
+      "transport_attempts": 3,
+      "wrapper_invocations": 6,
+      "wall_s": 0.0397631999803707,
+      "error": null
+    },
+    "op_id": "flat_get_drop_status-r1-0008"
+  }
+]

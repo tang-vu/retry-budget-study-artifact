@@ -1,0 +1,12 @@
+{"t_mono": 185222.51533, "t_wall": 1792645462.709049, "op_id": "boundary_post_drop_status_unchecked-r1-0058", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 185222.515336, "t_wall": 1792645462.709054, "op_id": "boundary_post_drop_status_unchecked-r1-0058", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185222.515338, "t_wall": 1792645462.709055, "op_id": "boundary_post_drop_status_unchecked-r1-0058", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185222.515997, "t_wall": 1792645462.709714, "op_id": "boundary_post_drop_status_unchecked-r1-0058", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185222.538851, "t_wall": 1792645462.732569, "op_id": "boundary_post_drop_status_unchecked-r1-0058", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "ProtocolError", "status": null}}
+{"t_mono": 185222.538886, "t_wall": 1792645462.732603, "op_id": "boundary_post_drop_status_unchecked-r1-0058", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185222.538957, "t_wall": 1792645462.732675, "op_id": "boundary_post_drop_status_unchecked-r1-0058", "layer": "tenacity", "kind": "invoke", "data": {"n": 2}}
+{"t_mono": 185222.53896, "t_wall": 1792645462.732678, "op_id": "boundary_post_drop_status_unchecked-r1-0058", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185222.538962, "t_wall": 1792645462.732679, "op_id": "boundary_post_drop_status_unchecked-r1-0058", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185222.539435, "t_wall": 1792645462.733153, "op_id": "boundary_post_drop_status_unchecked-r1-0058", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185222.541971, "t_wall": 1792645462.735688, "op_id": "boundary_post_drop_status_unchecked-r1-0058", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185222.542046, "t_wall": 1792645462.735763, "op_id": "boundary_post_drop_status_unchecked-r1-0058", "layer": "op", "kind": "result", "data": {"outcome": "http_error", "status": 503, "attempts": 2, "wall_s": 0.026731}}

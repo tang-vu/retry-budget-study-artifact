@@ -1,0 +1,25 @@
+{
+  "paths": {
+    "Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0)": {
+      "attempts": 2,
+      "elapsed_s": 2.04,
+      "effects": 2,
+      "signal": "terminal_exception"
+    },
+    "Outcome(kind='status', status=503, retry_after_s=1.0, delay_s=0.0),Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 2,
+      "elapsed_s": 1.04,
+      "effects": 2,
+      "signal": "success"
+    },
+    "Outcome(kind='success', status=0, retry_after_s=None, delay_s=0.0)": {
+      "attempts": 1,
+      "elapsed_s": 0.02,
+      "effects": 1,
+      "signal": "success"
+    }
+  },
+  "max_attempts": 2,
+  "max_elapsed_s": 2.04,
+  "n_paths": 3
+}

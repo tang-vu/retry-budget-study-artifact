@@ -1,0 +1,15 @@
+[
+  {
+    "op": {
+      "op_id": "ev_u3_refused-r1-0042",
+      "outcome": "exception",
+      "status": null,
+      "transport_attempts": 4,
+      "wrapper_invocations": 1,
+      "wall_s": 2.019082200000412,
+      "error": "ConnectTimeout"
+    },
+    "op_id": "ev_u3_refused-r1-0042",
+    "_events": "{\"t_mono\": 90096.037097, \"t_wall\": 1790006409.691235, \"op_id\": \"ev_u3_refused-r1-0042\", \"layer\": \"urllib3\", \"kind\": \"invoke\", \"data\": {}}\n{\"t_mono\": 90096.037113, \"t_wall\": 1790006409.69125, \"op_id\": \"ev_u3_refused-r1-0042\", \"layer\": \"urllib3\", \"kind\": \"attempt_start\", \"data\": {}}\n{\"t_mono\": 90096.544391, \"t_wall\": 1790006410.198529, \"op_id\": \"ev_u3_refused-r1-0042\", \"layer\": \"urllib3\", \"kind\": \"retry_scheduled\", \"data\": {}}\n{\"t_mono\": 90097.048968, \"t_wall\": 1790006410.703105, \"op_id\": \"ev_u3_refused-r1-0042\", \"layer\": \"urllib3\", \"kind\": \"retry_scheduled\", \"data\": {}}\n{\"t_mono\": 90097.550584, \"t_wall\": 1790006411.204722, \"op_id\": \"ev_u3_refused-r1-0042\", \"layer\": \"urllib3\", \"kind\": \"retry_scheduled\", \"data\": {}}\n{\"t_mono\": 90098.056117, \"t_wall\": 1790006411.710255, \"op_id\": \"ev_u3_refused-r1-0042\", \"layer\": \"urllib3\", \"kind\": \"retry_exhausted\", \"data\": {\"error\": \"MaxRetryError\", \"status\": null}}\n{\"t_mono\": 90098.056166, \"t_wall\": 1790006411.710303, \"op_id\": \"ev_u3_refused-r1-0042\", \"layer\": \"urllib3\", \"kind\": \"attempt_end\", \"data\": {}}\n{\"t_mono\": 90098.056195, \"t_wall\": 1790006411.710332, \"op_id\": \"ev_u3_refused-r1-0042\", \"layer\": \"op\", \"kind\": \"result\", \"data\": {\"outcome\": \"exception\", \"status\": null, \"attempts\": 4, \"wall_s\": 2.019082}}"
+  }
+]

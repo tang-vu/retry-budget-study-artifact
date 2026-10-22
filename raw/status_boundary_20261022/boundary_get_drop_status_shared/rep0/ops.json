@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "boundary_get_drop_status_shared-r0-0031",
+      "outcome": "success",
+      "status": 200,
+      "transport_attempts": 3,
+      "wrapper_invocations": 2,
+      "wall_s": 0.03780349998851307,
+      "error": null
+    },
+    "op_id": "boundary_get_drop_status_shared-r0-0031"
+  }
+]

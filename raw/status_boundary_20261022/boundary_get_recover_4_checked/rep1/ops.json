@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "boundary_get_recover_4_checked-r1-0020",
+      "outcome": "success",
+      "status": 200,
+      "transport_attempts": 5,
+      "wrapper_invocations": 4,
+      "wall_s": 0.007445499999448657,
+      "error": null
+    },
+    "op_id": "boundary_get_recover_4_checked-r1-0020"
+  }
+]

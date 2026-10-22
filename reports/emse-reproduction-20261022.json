@@ -1,0 +1,103 @@
+{
+  "pilot": {
+    "attempts_used": 379,
+    "elapsed_bound_miss_cells": 0,
+    "measured_cells": 31
+  },
+  "previous-pilot": {
+    "attempts_used": 378,
+    "elapsed_bound_miss_cells": 5,
+    "measured_cells": 31
+  },
+  "controlled-initial": {
+    "attempts_used": 124,
+    "elapsed_bound_miss_cells": 0,
+    "measured_cells": 18,
+    "operations": 36,
+    "attempts": 124,
+    "all_complete": false,
+    "physical_counts_match": true,
+    "effect_counts_match": true
+  },
+  "controlled-replication": {
+    "attempts_used": 124,
+    "elapsed_bound_miss_cells": 0,
+    "measured_cells": 18,
+    "operations": 36,
+    "attempts": 124,
+    "all_complete": true,
+    "physical_counts_match": true,
+    "effect_counts_match": true
+  },
+  "boundary": {
+    "attempts_used": 196,
+    "elapsed_bound_miss_cells": 5,
+    "measured_cells": 32,
+    "operations": 64,
+    "attempts": 196,
+    "all_complete": true,
+    "physical_counts_match": true,
+    "effect_counts_match": true
+  },
+  "flat": {
+    "attempts_used": 56,
+    "elapsed_bound_miss_cells": 0,
+    "measured_cells": 8,
+    "operations": 16,
+    "attempts": 56,
+    "all_complete": true,
+    "physical_counts_match": true,
+    "effect_counts_match": true
+  },
+  "comparison": {
+    "operations": 80,
+    "condition_pairs": 8,
+    "arms": [
+      {
+        "arm": "unchecked",
+        "operations": 16,
+        "attempts": 38,
+        "successes": 4,
+        "effects": 8,
+        "attempt_budget_breaches": 0
+      },
+      {
+        "arm": "checked",
+        "operations": 16,
+        "attempts": 70,
+        "successes": 10,
+        "effects": 14,
+        "attempt_budget_breaches": 4
+      },
+      {
+        "arm": "single",
+        "operations": 16,
+        "attempts": 36,
+        "successes": 4,
+        "effects": 8,
+        "attempt_budget_breaches": 0
+      },
+      {
+        "arm": "shared",
+        "operations": 16,
+        "attempts": 52,
+        "successes": 8,
+        "effects": 12,
+        "attempt_budget_breaches": 0
+      },
+      {
+        "arm": "flat",
+        "operations": 16,
+        "attempts": 56,
+        "successes": 8,
+        "effects": 12,
+        "attempt_budget_breaches": 0
+      }
+    ],
+    "physical_attempts": 252,
+    "all_measurement_channels_reconcile": true,
+    "all_condition_repetitions_agree": true,
+    "post_inspection_arm": "flat",
+    "causal_latency_or_population_claim": false
+  }
+}

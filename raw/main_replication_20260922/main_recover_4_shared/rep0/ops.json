@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "main_recover_4_shared-r0-0011",
+      "outcome": "budget_exhausted",
+      "status": null,
+      "transport_attempts": 4,
+      "wrapper_invocations": 4,
+      "wall_s": 0.021633700001984835,
+      "error": "request budget exhausted: attempts"
+    },
+    "op_id": "main_recover_4_shared-r0-0011"
+  }
+]

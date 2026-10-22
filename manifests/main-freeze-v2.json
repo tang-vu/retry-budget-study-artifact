@@ -1,0 +1,12 @@
+{
+  "frozen_at": "2026-09-22T19:05:02+0700",
+  "harness_commit": "b4411961d5bf0505aca08330c5ff58510b0fd46e",
+  "inputs": {
+    "config/main_matrix.json": "5113b8f1459eec4b685a41679627fa4c5ede06580268e92b41a56b3f9ad3335c",
+    "protocol/main-analysis-plan.md": "0bd45008ffe8060fa62f8a8ba94f3e662e6b267fec1463b224e03c8c670fdc1c"
+  },
+  "recorded_previous_attempts": 2262,
+  "max_new_reserved_attempts": 156,
+  "phase": "prospective controlled extension",
+  "development_run": "raw/main_development_20260922"
+}

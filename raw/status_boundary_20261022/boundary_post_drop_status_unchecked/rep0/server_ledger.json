@@ -1,0 +1,34 @@
+{
+  "boundary_post_drop_status_unchecked-r0-0057": [
+    {
+      "cell_id": "boundary_post_drop_status_unchecked",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 185220.4796444,
+      "receipt_idx": 1,
+      "t_wall": 1792645460.6733668,
+      "action": {
+        "drop": true,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": false
+    },
+    {
+      "cell_id": "boundary_post_drop_status_unchecked",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 185220.4978684,
+      "receipt_idx": 2,
+      "t_wall": 1792645460.691597,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    }
+  ]
+}

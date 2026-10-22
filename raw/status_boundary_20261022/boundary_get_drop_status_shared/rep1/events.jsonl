@@ -1,0 +1,12 @@
+{"t_mono": 185193.747422, "t_wall": 1792645433.94114, "op_id": "boundary_get_drop_status_shared-r1-0032", "layer": "budget", "kind": "budget_created", "data": {"deadline_mono": null}}
+{"t_mono": 185193.747679, "t_wall": 1792645433.941396, "op_id": "boundary_get_drop_status_shared-r1-0032", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 185193.747682, "t_wall": 1792645433.9414, "op_id": "boundary_get_drop_status_shared-r1-0032", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185193.747686, "t_wall": 1792645433.941403, "op_id": "boundary_get_drop_status_shared-r1-0032", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185193.751654, "t_wall": 1792645433.945372, "op_id": "boundary_get_drop_status_shared-r1-0032", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185193.772621, "t_wall": 1792645433.966339, "op_id": "boundary_get_drop_status_shared-r1-0032", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185193.772795, "t_wall": 1792645433.966513, "op_id": "boundary_get_drop_status_shared-r1-0032", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185193.787892, "t_wall": 1792645433.98161, "op_id": "boundary_get_drop_status_shared-r1-0032", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185193.788008, "t_wall": 1792645433.981725, "op_id": "boundary_get_drop_status_shared-r1-0032", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185193.789387, "t_wall": 1792645433.983104, "op_id": "boundary_get_drop_status_shared-r1-0032", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185193.789391, "t_wall": 1792645433.983109, "op_id": "boundary_get_drop_status_shared-r1-0032", "layer": "status_check", "kind": "response_checked", "data": {"status": 200}}
+{"t_mono": 185193.789462, "t_wall": 1792645433.983179, "op_id": "boundary_get_drop_status_shared-r1-0032", "layer": "op", "kind": "result", "data": {"outcome": "success", "status": 200, "attempts": 3, "wall_s": 0.041796}}

@@ -1,0 +1,12 @@
+{"t_mono": 185220.477486, "t_wall": 1792645460.671204, "op_id": "boundary_post_drop_status_unchecked-r0-0057", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 185220.47749, "t_wall": 1792645460.671208, "op_id": "boundary_post_drop_status_unchecked-r0-0057", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185220.477492, "t_wall": 1792645460.67121, "op_id": "boundary_post_drop_status_unchecked-r0-0057", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185220.478074, "t_wall": 1792645460.671792, "op_id": "boundary_post_drop_status_unchecked-r0-0057", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185220.479991, "t_wall": 1792645460.673709, "op_id": "boundary_post_drop_status_unchecked-r0-0057", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "ProtocolError", "status": null}}
+{"t_mono": 185220.480025, "t_wall": 1792645460.673742, "op_id": "boundary_post_drop_status_unchecked-r0-0057", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185220.480093, "t_wall": 1792645460.67381, "op_id": "boundary_post_drop_status_unchecked-r0-0057", "layer": "tenacity", "kind": "invoke", "data": {"n": 2}}
+{"t_mono": 185220.480096, "t_wall": 1792645460.673813, "op_id": "boundary_post_drop_status_unchecked-r0-0057", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185220.480097, "t_wall": 1792645460.673814, "op_id": "boundary_post_drop_status_unchecked-r0-0057", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185220.480594, "t_wall": 1792645460.674311, "op_id": "boundary_post_drop_status_unchecked-r0-0057", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185220.498696, "t_wall": 1792645460.692414, "op_id": "boundary_post_drop_status_unchecked-r0-0057", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185220.49876, "t_wall": 1792645460.692477, "op_id": "boundary_post_drop_status_unchecked-r0-0057", "layer": "op", "kind": "result", "data": {"outcome": "http_error", "status": 503, "attempts": 2, "wall_s": 0.021288}}

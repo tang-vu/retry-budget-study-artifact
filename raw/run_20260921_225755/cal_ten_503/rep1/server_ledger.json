@@ -1,0 +1,52 @@
+{
+  "cal_ten_503-r1-0004": [
+    {
+      "cell_id": "cal_ten_503",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 89964.9888244,
+      "receipt_idx": 1,
+      "t_wall": 1790006278.6429737,
+      "action": {
+        "respond": 503,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "cal_ten_503",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 89965.0122062,
+      "receipt_idx": 2,
+      "t_wall": 1790006278.6663482,
+      "action": {
+        "respond": 503,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "cal_ten_503",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 89965.0358126,
+      "receipt_idx": 3,
+      "t_wall": 1790006278.6899545,
+      "action": {
+        "respond": 503,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 503
+    }
+  ]
+}

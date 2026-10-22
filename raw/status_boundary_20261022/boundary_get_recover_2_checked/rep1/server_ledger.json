@@ -1,0 +1,50 @@
+{
+  "boundary_get_recover_2_checked-r1-0012": [
+    {
+      "cell_id": "boundary_get_recover_2_checked",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 185171.2146352,
+      "receipt_idx": 1,
+      "t_wall": 1792645411.4083586,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "boundary_get_recover_2_checked",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 185171.2158111,
+      "receipt_idx": 2,
+      "t_wall": 1792645411.4095333,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "boundary_get_recover_2_checked",
+      "method": "GET",
+      "path": "/op",
+      "body_len": 0,
+      "t_mono": 185171.2167588,
+      "receipt_idx": 3,
+      "t_wall": 1792645411.4104807,
+      "action": {
+        "respond": 200,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 200
+    }
+  ]
+}

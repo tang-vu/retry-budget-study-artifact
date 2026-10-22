@@ -1,0 +1,19 @@
+{
+  "boundary_post_recover_2_single-r0-0045": [
+    {
+      "cell_id": "boundary_post_recover_2_single",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 185208.1526746,
+      "receipt_idx": 1,
+      "t_wall": 1792645448.3463976,
+      "action": {
+        "respond": 503
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    }
+  ]
+}

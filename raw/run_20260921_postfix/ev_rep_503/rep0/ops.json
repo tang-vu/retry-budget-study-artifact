@@ -1,0 +1,14 @@
+[
+  {
+    "op": {
+      "op_id": "ev_rep_503-r0-0009",
+      "outcome": "exception",
+      "status": 503,
+      "transport_attempts": 3,
+      "wrapper_invocations": 6,
+      "wall_s": 0.06748280000465456,
+      "error": "RetryError(result)"
+    },
+    "op_id": "ev_rep_503-r0-0009"
+  }
+]

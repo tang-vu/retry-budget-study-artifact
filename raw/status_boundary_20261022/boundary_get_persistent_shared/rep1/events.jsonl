@@ -1,0 +1,18 @@
+{"t_mono": 185169.096728, "t_wall": 1792645409.290446, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "budget", "kind": "budget_created", "data": {"deadline_mono": null}}
+{"t_mono": 185169.097006, "t_wall": 1792645409.290724, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 185169.09701, "t_wall": 1792645409.290727, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185169.097013, "t_wall": 1792645409.29073, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185169.097702, "t_wall": 1792645409.29142, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185169.120377, "t_wall": 1792645409.314095, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185169.120534, "t_wall": 1792645409.314251, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185169.121683, "t_wall": 1792645409.3154, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185169.121789, "t_wall": 1792645409.315506, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185169.122854, "t_wall": 1792645409.316572, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 185169.122956, "t_wall": 1792645409.316674, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185169.12395, "t_wall": 1792645409.317668, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": 503}}
+{"t_mono": 185169.124226, "t_wall": 1792645409.317944, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185169.12423, "t_wall": 1792645409.317947, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "status_check", "kind": "response_checked", "data": {"status": 503}}
+{"t_mono": 185169.124342, "t_wall": 1792645409.318059, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "tenacity", "kind": "invoke", "data": {"n": 2}}
+{"t_mono": 185169.124345, "t_wall": 1792645409.318063, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185169.124354, "t_wall": 1792645409.318071, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "urllib3", "kind": "budget_refusal", "data": {"reason": "attempts"}}
+{"t_mono": 185169.124513, "t_wall": 1792645409.318231, "op_id": "boundary_get_persistent_shared-r1-0008", "layer": "op", "kind": "result", "data": {"outcome": "budget_exhausted", "status": null, "attempts": 4, "wall_s": 0.027519}}

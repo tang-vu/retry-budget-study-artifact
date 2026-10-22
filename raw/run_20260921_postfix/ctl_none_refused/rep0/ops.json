@@ -1,0 +1,15 @@
+[
+  {
+    "op": {
+      "op_id": "ctl_none_refused-r0-0055",
+      "outcome": "exception",
+      "status": null,
+      "transport_attempts": 1,
+      "wrapper_invocations": 1,
+      "wall_s": 0.5122327999997651,
+      "error": "ConnectTimeout"
+    },
+    "op_id": "ctl_none_refused-r0-0055",
+    "_events": "{\"t_mono\": 80389.404651, \"t_wall\": 1789996703.058789, \"op_id\": \"ctl_none_refused-r0-0055\", \"layer\": \"urllib3\", \"kind\": \"invoke\", \"data\": {}}\n{\"t_mono\": 80389.404656, \"t_wall\": 1789996703.058793, \"op_id\": \"ctl_none_refused-r0-0055\", \"layer\": \"urllib3\", \"kind\": \"attempt_start\", \"data\": {}}\n{\"t_mono\": 80389.916825, \"t_wall\": 1789996703.570963, \"op_id\": \"ctl_none_refused-r0-0055\", \"layer\": \"urllib3\", \"kind\": \"retry_exhausted\", \"data\": {\"error\": \"MaxRetryError\", \"status\": null}}\n{\"t_mono\": 80389.916872, \"t_wall\": 1789996703.571009, \"op_id\": \"ctl_none_refused-r0-0055\", \"layer\": \"urllib3\", \"kind\": \"attempt_end\", \"data\": {}}\n{\"t_mono\": 80389.916907, \"t_wall\": 1789996703.571044, \"op_id\": \"ctl_none_refused-r0-0055\", \"layer\": \"op\", \"kind\": \"result\", \"data\": {\"outcome\": \"exception\", \"status\": null, \"attempts\": 1, \"wall_s\": 0.512233}}"
+  }
+]

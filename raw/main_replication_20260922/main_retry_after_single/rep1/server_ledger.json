@@ -1,0 +1,38 @@
+{
+  "main_retry_after_single-r1-0014": [
+    {
+      "cell_id": "main_retry_after_single",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162635.6695729,
+      "receipt_idx": 1,
+      "t_wall": 1790078946.7884085,
+      "action": {
+        "respond": 503,
+        "headers": {
+          "Retry-After": "1"
+        }
+      },
+      "effect": "none",
+      "responded": true,
+      "status": 503
+    },
+    {
+      "cell_id": "main_retry_after_single",
+      "method": "POST",
+      "path": "/op",
+      "body_len": 1,
+      "t_mono": 162636.6710942,
+      "receipt_idx": 2,
+      "t_wall": 1790078947.7899344,
+      "action": {
+        "respond": 200,
+        "effect": "apply"
+      },
+      "effect": "apply",
+      "responded": true,
+      "status": 200
+    }
+  ]
+}

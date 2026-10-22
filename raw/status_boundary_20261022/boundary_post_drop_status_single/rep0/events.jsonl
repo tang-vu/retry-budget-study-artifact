@@ -1,0 +1,6 @@
+{"t_mono": 185228.642819, "t_wall": 1792645468.836537, "op_id": "boundary_post_drop_status_single-r0-0061", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 185228.642824, "t_wall": 1792645468.836541, "op_id": "boundary_post_drop_status_single-r0-0061", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 185228.643484, "t_wall": 1792645468.837202, "op_id": "boundary_post_drop_status_single-r0-0061", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 185228.645041, "t_wall": 1792645468.838759, "op_id": "boundary_post_drop_status_single-r0-0061", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "ProtocolError", "status": null}}
+{"t_mono": 185228.645068, "t_wall": 1792645468.838785, "op_id": "boundary_post_drop_status_single-r0-0061", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 185228.645099, "t_wall": 1792645468.838817, "op_id": "boundary_post_drop_status_single-r0-0061", "layer": "op", "kind": "result", "data": {"outcome": "exception", "status": null, "attempts": 1, "wall_s": 0.002266}}

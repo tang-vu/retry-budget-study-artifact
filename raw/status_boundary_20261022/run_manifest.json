@@ -1,0 +1,420 @@
+{
+  "run_id": "run_20261022_120322",
+  "matrix_sha256": "3778eaa73e2a82a735e90053ddf8657593e6c8cac1002365a0793ec896053b46",
+  "matrix_version": "status-boundary-20261022-v1",
+  "orchestrator": "0.1.0",
+  "python": "3.14.8",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "clock_info": {
+    "monotonic": {
+      "implementation": "QueryPerformanceCounter()",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-07
+    },
+    "perf_counter": {
+      "implementation": "QueryPerformanceCounter()",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-07
+    }
+  },
+  "attempt_cap": 3000,
+  "cumulative_cap": 3000,
+  "previous_attempts_charged": 2545,
+  "measurement_revision": "physical-entry-completion-v1",
+  "quota_persistence_in_timing": false,
+  "reserved_attempts": 256,
+  "started_wall": 1792645402.5681133,
+  "cells": [
+    {
+      "id": "boundary_get_persistent_unchecked",
+      "split": "eval",
+      "policy": "unchecked",
+      "failure": "persistent",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 8
+    },
+    {
+      "id": "boundary_get_persistent_checked",
+      "split": "eval",
+      "policy": "checked",
+      "failure": "persistent",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 32
+    },
+    {
+      "id": "boundary_get_persistent_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "persistent",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 40
+    },
+    {
+      "id": "boundary_get_persistent_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "persistent",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 48
+    },
+    {
+      "id": "boundary_get_recover_2_unchecked",
+      "split": "eval",
+      "policy": "unchecked",
+      "failure": "recover_2",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 54
+    },
+    {
+      "id": "boundary_get_recover_2_checked",
+      "split": "eval",
+      "policy": "checked",
+      "failure": "recover_2",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 60
+    },
+    {
+      "id": "boundary_get_recover_2_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "recover_2",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 66
+    },
+    {
+      "id": "boundary_get_recover_2_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "recover_2",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 72
+    },
+    {
+      "id": "boundary_get_recover_4_unchecked",
+      "split": "eval",
+      "policy": "unchecked",
+      "failure": "recover_4",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 80
+    },
+    {
+      "id": "boundary_get_recover_4_checked",
+      "split": "eval",
+      "policy": "checked",
+      "failure": "recover_4",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 90
+    },
+    {
+      "id": "boundary_get_recover_4_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "recover_4",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 98
+    },
+    {
+      "id": "boundary_get_recover_4_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "recover_4",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 106
+    },
+    {
+      "id": "boundary_get_drop_status_unchecked",
+      "split": "eval",
+      "policy": "unchecked",
+      "failure": "drop_status",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 112
+    },
+    {
+      "id": "boundary_get_drop_status_checked",
+      "split": "eval",
+      "policy": "checked",
+      "failure": "drop_status",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 118
+    },
+    {
+      "id": "boundary_get_drop_status_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "drop_status",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 124
+    },
+    {
+      "id": "boundary_get_drop_status_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "drop_status",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 130
+    },
+    {
+      "id": "boundary_post_persistent_unchecked",
+      "split": "eval",
+      "policy": "unchecked",
+      "failure": "persistent",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 132
+    },
+    {
+      "id": "boundary_post_persistent_checked",
+      "split": "eval",
+      "policy": "checked",
+      "failure": "persistent",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 138
+    },
+    {
+      "id": "boundary_post_persistent_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "persistent",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 140
+    },
+    {
+      "id": "boundary_post_persistent_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "persistent",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 146
+    },
+    {
+      "id": "boundary_post_recover_2_unchecked",
+      "split": "eval",
+      "policy": "unchecked",
+      "failure": "recover_2",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 148
+    },
+    {
+      "id": "boundary_post_recover_2_checked",
+      "split": "eval",
+      "policy": "checked",
+      "failure": "recover_2",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 154
+    },
+    {
+      "id": "boundary_post_recover_2_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "recover_2",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 156
+    },
+    {
+      "id": "boundary_post_recover_2_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "recover_2",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 162
+    },
+    {
+      "id": "boundary_post_recover_4_unchecked",
+      "split": "eval",
+      "policy": "unchecked",
+      "failure": "recover_4",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 164
+    },
+    {
+      "id": "boundary_post_recover_4_checked",
+      "split": "eval",
+      "policy": "checked",
+      "failure": "recover_4",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 170
+    },
+    {
+      "id": "boundary_post_recover_4_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "recover_4",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 172
+    },
+    {
+      "id": "boundary_post_recover_4_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "recover_4",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 178
+    },
+    {
+      "id": "boundary_post_drop_status_unchecked",
+      "split": "eval",
+      "policy": "unchecked",
+      "failure": "drop_status",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 182
+    },
+    {
+      "id": "boundary_post_drop_status_checked",
+      "split": "eval",
+      "policy": "checked",
+      "failure": "drop_status",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 188
+    },
+    {
+      "id": "boundary_post_drop_status_single",
+      "split": "eval",
+      "policy": "single",
+      "failure": "drop_status",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 190
+    },
+    {
+      "id": "boundary_post_drop_status_shared",
+      "split": "eval",
+      "policy": "shared",
+      "failure": "drop_status",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 196
+    }
+  ],
+  "exit_status": "OK",
+  "attempts_used": 196,
+  "cumulative_attempts_charged": 2741,
+  "elapsed_s": 69.918,
+  "finished_wall": 1792645472.4862065
+}

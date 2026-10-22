@@ -1,0 +1,26 @@
+{
+  "policy": "shared",
+  "outcome": "read_err",
+  "verdict": "GUARANTEED",
+  "attempts_min": 3.0,
+  "attempts_max": 3.0,
+  "elapsed_min_s": 0.0015,
+  "elapsed_max_s": 0.06,
+  "effects_max": 3.0,
+  "warnings": [
+    {
+      "code": "METHOD_NOT_ELIGIBLE",
+      "severity": "info",
+      "message": "method POST outside urllib3 allowed_methods; inner layer will not retry (attempts collapse)"
+    }
+  ],
+  "assumptions": [
+    "A1 per-invocation layer state (no cross-op sharing)",
+    "A2 persistent outcome per cell (heterogeneous mixes via simulator)",
+    "A3 loopback attempt-cost model (floors/ceilings documented)",
+    "A4 Windows timer granularity ~15.6ms adds timing uncertainty"
+  ],
+  "repairs": [],
+  "attempts_max_mixed_counters": null,
+  "scenario_consistency": "OK"
+}

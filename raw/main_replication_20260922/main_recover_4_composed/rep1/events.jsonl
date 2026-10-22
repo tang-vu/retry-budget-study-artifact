@@ -1,0 +1,18 @@
+{"t_mono": 162629.797409, "t_wall": 1790078940.916239, "op_id": "main_recover_4_composed-r1-0010", "layer": "tenacity", "kind": "invoke", "data": {"n": 1}}
+{"t_mono": 162629.797414, "t_wall": 1790078940.916243, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 162629.797415, "t_wall": 1790078940.916245, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 162629.79807, "t_wall": 1790078940.916899, "op_id": "main_recover_4_composed-r1-0010", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162629.799812, "t_wall": 1790078940.918643, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 162629.799955, "t_wall": 1790078940.918785, "op_id": "main_recover_4_composed-r1-0010", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162629.801203, "t_wall": 1790078940.920033, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 162629.801356, "t_wall": 1790078940.920186, "op_id": "main_recover_4_composed-r1-0010", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162629.802278, "t_wall": 1790078940.921108, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "retry_exhausted", "data": {"error": "MaxRetryError", "status": 503}}
+{"t_mono": 162629.802457, "t_wall": 1790078940.921287, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 162629.817827, "t_wall": 1790078940.936657, "op_id": "main_recover_4_composed-r1-0010", "layer": "tenacity", "kind": "invoke", "data": {"n": 2}}
+{"t_mono": 162629.817837, "t_wall": 1790078940.936666, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "invoke", "data": {}}
+{"t_mono": 162629.817839, "t_wall": 1790078940.936668, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "attempt_start", "data": {}}
+{"t_mono": 162629.818541, "t_wall": 1790078940.937371, "op_id": "main_recover_4_composed-r1-0010", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162629.819994, "t_wall": 1790078940.938824, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "retry_scheduled", "data": {}}
+{"t_mono": 162629.820158, "t_wall": 1790078940.938987, "op_id": "main_recover_4_composed-r1-0010", "layer": "transport", "kind": "physical_attempt_start", "data": {}}
+{"t_mono": 162629.821035, "t_wall": 1790078940.939865, "op_id": "main_recover_4_composed-r1-0010", "layer": "urllib3", "kind": "attempt_end", "data": {}}
+{"t_mono": 162629.821171, "t_wall": 1790078940.940001, "op_id": "main_recover_4_composed-r1-0010", "layer": "op", "kind": "result", "data": {"outcome": "success", "status": 200, "attempts": 5, "wall_s": 0.023776}}

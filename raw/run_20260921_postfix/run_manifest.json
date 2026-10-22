@@ -1,0 +1,441 @@
+{
+  "run_id": "run_20260921_201710",
+  "matrix_sha256": "183d8ff912c797e55a733a62920df69d59ad35a5768875e8ebef88e0ae195115",
+  "matrix_version": "1.0",
+  "orchestrator": "0.1.0",
+  "python": "3.14.4",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "clock_info": {
+    "monotonic": {
+      "implementation": "QueryPerformanceCounter()",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-07
+    },
+    "perf_counter": {
+      "implementation": "QueryPerformanceCounter()",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-07
+    }
+  },
+  "attempt_cap": 3000,
+  "started_wall": 1789996630.241767,
+  "cells": [
+    {
+      "id": "cal_u3_503",
+      "split": "cal",
+      "policy": "p_u3",
+      "failure": "f_status503",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 8
+    },
+    {
+      "id": "cal_ten_503",
+      "split": "cal",
+      "policy": "p_ten",
+      "failure": "f_status503",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 14
+    },
+    {
+      "id": "ev_u3ten_503",
+      "split": "eval",
+      "policy": "p_u3_ten",
+      "failure": "f_status503",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 38
+    },
+    {
+      "id": "ev_rosf_503",
+      "split": "eval",
+      "policy": "p_u3_ten_rosf",
+      "failure": "f_status503",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 62
+    },
+    {
+      "id": "ev_rep_503",
+      "split": "eval",
+      "policy": "p_repaired",
+      "failure": "f_status503",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 68
+    },
+    {
+      "id": "ev_bud_503",
+      "split": "eval",
+      "policy": "p_budget",
+      "failure": "f_status503",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 78
+    },
+    {
+      "id": "ev_sdelay_503",
+      "split": "eval",
+      "policy": "p_delay_only",
+      "failure": "f_status503",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 182
+    },
+    {
+      "id": "ev_hdline_503",
+      "split": "eval",
+      "policy": "p_deadline",
+      "failure": "f_status503",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 202
+    },
+    {
+      "id": "cal_u3_delay",
+      "split": "cal",
+      "policy": "p_u3",
+      "failure": "f_delay",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0,
+        "max_effects": 5
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 210
+    },
+    {
+      "id": "ev_u3ten_delay",
+      "split": "eval",
+      "policy": "p_u3_ten",
+      "failure": "f_delay",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0,
+        "max_effects": 5
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 234
+    },
+    {
+      "id": "ev_u3ten_delay_post",
+      "split": "eval",
+      "policy": "p_u3_ten",
+      "failure": "f_delay",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0,
+        "max_effects": 1
+      },
+      "verdict": "POSSIBLE_BREACH",
+      "attempts_used": 240
+    },
+    {
+      "id": "ev_hdline_delay",
+      "split": "eval",
+      "policy": "p_deadline",
+      "failure": "f_delay",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 1.2,
+        "max_effects": 5
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 245
+    },
+    {
+      "id": "ev_rep_delay",
+      "split": "eval",
+      "policy": "p_repaired",
+      "failure": "f_delay",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0,
+        "max_effects": 5
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 251
+    },
+    {
+      "id": "ev_u3_ra",
+      "split": "eval",
+      "policy": "p_u3",
+      "failure": "f_retry_after",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "POSSIBLE_BREACH",
+      "attempts_used": 257
+    },
+    {
+      "id": "ev_u3_nora",
+      "split": "eval",
+      "policy": "p_u3_nora",
+      "failure": "f_retry_after",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 263
+    },
+    {
+      "id": "ev_bud_ra",
+      "split": "eval",
+      "policy": "p_budget",
+      "failure": "f_retry_after",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 267
+    },
+    {
+      "id": "ev_u3ten_ra",
+      "split": "eval",
+      "policy": "p_u3_ten",
+      "failure": "f_retry_after",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 273
+    },
+    {
+      "id": "ev_u3_drop",
+      "split": "eval",
+      "policy": "p_u3",
+      "failure": "f_drop",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0,
+        "max_effects": 5
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 281
+    },
+    {
+      "id": "ev_u3ten_drop",
+      "split": "eval",
+      "policy": "p_u3_ten",
+      "failure": "f_drop",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0,
+        "max_effects": 5
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 305
+    },
+    {
+      "id": "ev_bud_drop",
+      "split": "eval",
+      "policy": "p_budget",
+      "failure": "f_drop",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0,
+        "max_effects": 5
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 315
+    },
+    {
+      "id": "ev_u3_refused",
+      "split": "eval",
+      "policy": "p_u3",
+      "failure": "f_refused",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 323
+    },
+    {
+      "id": "ev_u3ten_refused",
+      "split": "eval",
+      "policy": "p_u3_ten",
+      "failure": "f_refused",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 347
+    },
+    {
+      "id": "ev_bud_refused",
+      "split": "eval",
+      "policy": "p_budget",
+      "failure": "f_refused",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 357
+    },
+    {
+      "id": "sv_httpx_refused",
+      "split": "eval",
+      "policy": "p_httpx",
+      "failure": "f_refused",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 363
+    },
+    {
+      "id": "ev_u3ten_flaky",
+      "split": "eval",
+      "policy": "p_u3_ten",
+      "failure": "f_flaky2",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "WILL_BREACH",
+      "attempts_used": 369
+    },
+    {
+      "id": "ev_bud_flaky",
+      "split": "eval",
+      "policy": "p_budget",
+      "failure": "f_flaky2",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 375
+    },
+    {
+      "id": "ctl_none_ok",
+      "split": "control",
+      "policy": "p_none",
+      "failure": "f_ok",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 376
+    },
+    {
+      "id": "ctl_none_503",
+      "split": "control",
+      "policy": "p_none",
+      "failure": "f_status503",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 377
+    },
+    {
+      "id": "ctl_none_refused",
+      "split": "control",
+      "policy": "p_none",
+      "failure": "f_refused",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 378
+    },
+    {
+      "id": "mut_unknown_pred",
+      "split": "mutant",
+      "policy": "p_ten",
+      "failure": "f_status503",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "UNKNOWN",
+      "attempts_used": 378
+    },
+    {
+      "id": "mut_unknown_kind",
+      "split": "mutant",
+      "policy": "p_ten",
+      "failure": "f_status503",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 5,
+        "max_wall_s": 3.0
+      },
+      "verdict": "UNKNOWN",
+      "attempts_used": 378
+    }
+  ],
+  "exit_status": "OK",
+  "attempts_used": 378,
+  "elapsed_s": 73.334,
+  "finished_wall": 1789996703.5754647
+}

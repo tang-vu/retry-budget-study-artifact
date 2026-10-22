@@ -1,0 +1,132 @@
+{
+  "run_id": "run_20261022_120932",
+  "matrix_sha256": "21c59301c6d119c7e454f3b900aa20a354425955c90aa82b64f199613da3cfe4",
+  "matrix_version": "status-boundary-flat-20261022-v1",
+  "orchestrator": "0.1.0",
+  "python": "3.14.8",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "clock_info": {
+    "monotonic": {
+      "implementation": "QueryPerformanceCounter()",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-07
+    },
+    "perf_counter": {
+      "implementation": "QueryPerformanceCounter()",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-07
+    }
+  },
+  "attempt_cap": 3000,
+  "cumulative_cap": 3000,
+  "previous_attempts_charged": 2741,
+  "measurement_revision": "physical-entry-completion-v1",
+  "quota_persistence_in_timing": false,
+  "reserved_attempts": 64,
+  "started_wall": 1792645772.4319372,
+  "cells": [
+    {
+      "id": "flat_get_persistent",
+      "split": "eval",
+      "policy": "flat",
+      "failure": "persistent",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 8
+    },
+    {
+      "id": "flat_get_recover_2",
+      "split": "eval",
+      "policy": "flat",
+      "failure": "recover_2",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 14
+    },
+    {
+      "id": "flat_get_recover_4",
+      "split": "eval",
+      "policy": "flat",
+      "failure": "recover_4",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 22
+    },
+    {
+      "id": "flat_get_drop_status",
+      "split": "eval",
+      "policy": "flat",
+      "failure": "drop_status",
+      "method": "GET",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 28
+    },
+    {
+      "id": "flat_post_persistent",
+      "split": "eval",
+      "policy": "flat",
+      "failure": "persistent",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 36
+    },
+    {
+      "id": "flat_post_recover_2",
+      "split": "eval",
+      "policy": "flat",
+      "failure": "recover_2",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 42
+    },
+    {
+      "id": "flat_post_recover_4",
+      "split": "eval",
+      "policy": "flat",
+      "failure": "recover_4",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 50
+    },
+    {
+      "id": "flat_post_drop_status",
+      "split": "eval",
+      "policy": "flat",
+      "failure": "drop_status",
+      "method": "POST",
+      "contract": {
+        "max_transport_attempts": 4
+      },
+      "verdict": "GUARANTEED",
+      "attempts_used": 56
+    }
+  ],
+  "exit_status": "OK",
+  "attempts_used": 56,
+  "cumulative_attempts_charged": 2797,
+  "elapsed_s": 26.675,
+  "finished_wall": 1792645799.107046
+}

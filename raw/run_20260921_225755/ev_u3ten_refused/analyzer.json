@@ -1,0 +1,60 @@
+{
+  "policy": "p_u3_ten",
+  "outcome": "conn_err",
+  "verdict": "WILL_BREACH",
+  "attempts_min": 12.0,
+  "attempts_max": 12.0,
+  "elapsed_min_s": 0.006,
+  "elapsed_max_s": 6.640000000000001,
+  "effects_max": 0.0,
+  "warnings": [],
+  "assumptions": [
+    "A1 per-invocation layer state (no cross-op sharing)",
+    "A2 persistent outcome per cell (heterogeneous mixes via simulator)",
+    "A3 loopback attempt-cost model (floors/ceilings documented)",
+    "A4 Windows timer granularity ~15.6ms adds timing uncertainty"
+  ],
+  "repairs": [
+    {
+      "kind": "cap_layer",
+      "layer": "urllib3",
+      "layer_index": 1,
+      "set_max_attempts": 1,
+      "edits": 1,
+      "resulting_bound": 3,
+      "verified_attempts_max": 3,
+      "verified_meets_contract": true
+    },
+    {
+      "kind": "cap_layer",
+      "layer": "tenacity",
+      "layer_index": 0,
+      "set_max_attempts": 1,
+      "edits": 1,
+      "resulting_bound": 4,
+      "verified_attempts_max": 4,
+      "verified_meets_contract": true
+    },
+    {
+      "kind": "remove_outer_retry",
+      "layer": "tenacity",
+      "layer_index": 0,
+      "set_outer_max_attempts": 1,
+      "edits": 1,
+      "resulting_bound": 4,
+      "verified_attempts_max": 4,
+      "verified_meets_contract": true
+    },
+    {
+      "kind": "add_shared_budget",
+      "budget_attempts": 5,
+      "edits": 1,
+      "resulting_bound": 5,
+      "note": "existing best-practice request-scoped budget",
+      "verified_attempts_max": 5,
+      "verified_meets_contract": true
+    }
+  ],
+  "attempts_max_mixed_counters": null,
+  "scenario_consistency": "OK"
+}
