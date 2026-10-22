@@ -1,12 +1,14 @@
 {
   "title": "When Retry Limits Compose: Replication Artifact",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/tang-vu/retry-budget-study-artifact",
-  "release": "https://github.com/tang-vu/retry-budget-study-artifact/releases/tag/v1.0.0",
+  "release": "https://github.com/tang-vu/retry-budget-study-artifact/releases/tag/v1.0.1",
   "source_study_revision": "cf25c61795e0a210ca0425c0ffcc221eeedf72f1",
   "source_package_sha256": "3cb751a1dc7ce3b08023316730248a7a8b8e6987c45dcee3b29779ad6f789726",
   "scope": "Code, synthetic observations, protocols, frozen sources and reproduction results",
   "manuscript_included": false,
   "archival_doi": null,
-  "independent_human_verification_claimed": false
+  "independent_human_verification_claimed": false,
+  "previous_release": "https://github.com/tang-vu/retry-budget-study-artifact/releases/tag/v1.0.0",
+  "metadata_correction": "Author-confirmed given name Vu, middle name Minh, family name Tang; displayed as Vu Minh Tang. Scientific payload unchanged."
 }

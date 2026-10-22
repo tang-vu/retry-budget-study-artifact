@@ -3,10 +3,12 @@
 Code and synthetic observations supporting *When Retry Limits Compose:
 Signal-Aware Analysis and Measurement of Layered HTTP Clients*.
 
-Tang Minh Vu, Independent Researcher, Ninh Binh, Viet Nam.
+Vu Minh Tang, Independent Researcher, Ninh Binh, Viet Nam.
 Contact: tangminhvu2212@gmail.com. ORCID: https://orcid.org/0009-0009-4685-4427.
 
-Version 1.0.0: [release and downloadable archive](https://github.com/tang-vu/retry-budget-study-artifact/releases/tag/v1.0.0).
+Version 1.0.1: [release and downloadable archive](https://github.com/tang-vu/retry-budget-study-artifact/releases/tag/v1.0.1).
+Version 1.0.1 corrects the author name and citation metadata. Scientific code,
+data and protocols are unchanged from version 1.0.0.
 The companion manuscript is distributed separately. This repository does not
 indicate journal acceptance or independent human verification.
 

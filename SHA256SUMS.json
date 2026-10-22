@@ -1,8 +1,8 @@
 {
   ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
   ".gitignore": "e4da5647229eeaa0e232e6204e7482b89e12b5d0367ac163501ee92117b5904e",
-  "artifact.json": "93ecc82422f764679694e7777c998956a9d25ad686fb99fb7dfeca39f5b9d7c0",
-  "CITATION.cff": "4f2a84fd82d64c0c8b0b959db03dd533eac6c3e7bb3edcce81535323b1568d6d",
+  "artifact.json": "dfcb957b4a73766791b97a8b464bf28adb3a52c9a3f5e335dcb72335cde38711",
+  "CITATION.cff": "f7651b2d00938eb0c3861c04264712bd5111a4ee05ee13c271b49e20001240de",
   "config/main_matrix.json": "5113b8f1459eec4b685a41679627fa4c5ede06580268e92b41a56b3f9ad3335c",
   "config/main_smoke.json": "fc72b7ef6168237cc5a656bc3a774adefc5fc8c22d5057e4b0cd4efb860a81d5",
   "config/permissions.yaml": "2ec4a9300121568cc99bb3cf5a039774d251e3755846ac34dd81d55ee14c6774",
@@ -1552,7 +1552,7 @@
   "raw/status_boundary_flat_20261022/flat_post_recover_4/rep1/server_ledger.json": "f8a3770b6edb5173294759440bd181564fe690bd9440e5fc1a2a63a7745b1cb0",
   "raw/status_boundary_flat_20261022/flat_post_recover_4/sim.json": "6692bcf2ed75836fb3c41895a20d30d90e6a6152ea839c5cb26c6124cdff5d40",
   "raw/status_boundary_flat_20261022/run_manifest.json": "d197db9b94499cbb0252f5710db487a6f906af98439d02baa07de5951a2b5ad7",
-  "README.md": "58802988f4ac8d464ecbb081bb6b592bba7e7365a6dd9eaf570383c5193467d1",
+  "README.md": "c68f5ed59868d3c6f21869f08681bd1c2a7fad496f2d6489faf49fcc9a6f377b",
   "reports/emse-all-tests-20261022.json": "c7b3b956ad5b0625107a537c504b3dda3065f121250301a2f638323eff1e2043",
   "reports/emse-claim-audit-20261022.json": "460f062a59c3b802c5a373d0c731e89c8236260e2c98b9498cc642e7e1abae6e",
   "reports/emse-final-pure-tests-20261022.json": "ae6deb5dc891133969aff89dc341d0df437b66351b6dc864f39a6d5a3c550a53",
@@ -1623,5 +1623,5 @@
   "tests/test_review_semantics.py": "f287bae717cc60ae0e6ceea651e6da279b4d0299fe1605a06598f2a67c545eb2",
   "tests/test_simulator.py": "a14b8d4cc3dd9f6f0566ed86f9825f12a06ec708d0903a9e6924c8f0732d1776",
   "tests/test_status_check.py": "75e1a4f84aab58612071e04f813a5802eeecac1cf52e96d33edd9dfb014bc52d",
-  "THIRD_PARTY_NOTICES.md": "cd04058c4c5f1690eb2edd7ea5c9d20b3f49c1d600f6ee984ba71c849a746645"
+  "THIRD_PARTY_NOTICES.md": "4f439c07a35c72b89494f4653b9d5e7686a06bf05b8b71096a769880a69d3ab0"
 }

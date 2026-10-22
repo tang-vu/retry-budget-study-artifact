@@ -1,6 +1,6 @@
 # Rights and third-party sources
 
-Study author: Tang Minh Vu. Copyright 2026 Tang Minh Vu. This public artifact is provided to support review and reproduction of the study. No general open-source licence has been selected.
+Study author: Vu Minh Tang. Copyright 2026 Vu Minh Tang. This public artifact is provided to support review and reproduction of the study. No general open-source licence has been selected.
 
 Third-party dependencies are identified by version in requirements-emse-lock.txt and are not bundled. Their own licences apply, including those of requests, urllib3, tenacity, httpx and httpcore.
 
